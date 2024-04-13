@@ -1,6 +1,27 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-    <h1 class="display-4 text-success">It works!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col mx-auto">
+                <img src="..." class="rounded mx-auto d-block" alt="...">
+                <h1>The Power of Nature</h1>
+                <div>
+                    <hr>
+                    <h4>
+                        <a href="#">Shop Now </a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
