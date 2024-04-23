@@ -56,6 +56,7 @@ body {
     border: 1px solid black !important;
 }
 
+/* -------------------circle block------------------------------- */
 .circle {
     width: 400px;
     height: 400px;
@@ -89,6 +90,76 @@ hr {
     margin-bottom: 45px;
 }
 
+/* ---------------skincare block--------------------------- */
+.skincare{
+    width: 400px;
+    height: 350px;
+    /* line-height: 400px; */
+    color:white;
+    background: rgb(159, 159, 92);
+    border: 2px solid white;
+    outline: rgb(159, 159, 92) solid 15px;
+    margin: auto;  
+    padding: 20px;
+}
+.skincareh1 {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 37px;
+}
+.skincarereadmore {
+    text-align: center;
+    margin: 85px 120px;
+    font-size: 20px;
+    color:white;
+}
+.skincarehr {
+    /* position: relative; */
+    /* margin-top: 1rem; */
+    /* border: none; */
+    width: 50px;
+    height: 2px;
+    background: white;
+    margin-bottom: 45px;
+}
+/* ---------------wintercare block--------------------------- */
+.wintercare{
+    width: 450px;
+    height: 500px;
+    /* line-height: 400px; */
+    color:black;
+    background-color: white;
+    border-style: double;
+    border-width: 0.2rem;
+    margin: auto;  
+    padding: 20px;
+    position: relative;
+}
+.wintercareh1 {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 30px;
+}
+.wintercareh5 {
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.winterstockup {
+    text-align: center;
+    margin: 40px 130px;
+    font-size: 15px;
+    color:black;
+    
+}
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 60%;
+  }
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
