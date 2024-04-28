@@ -58,14 +58,13 @@ body {
 
 /* -------------------circle block------------------------------- */
 .circle {
-    width: 400px;
-    height: 400px;
-    line-height: 400px;
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
-    /* font-size: 50px; */
     color:black;
-    /* text-align: center; */
     background: rgb(162, 194, 162);
+    margin-left: 400px;
+    margin-top: 15px;
   }
 
 .circleh1 {
@@ -75,9 +74,10 @@ body {
 }
 .circleshopnow {
     text-align: center;
-    margin: 85px 145px;
-    font-size: 20px;
+    margin: 85px 149px;
+    font-size: 15px;
     color:black;
+    margin-top: 22px;
 }
 
 hr {
@@ -94,13 +94,11 @@ hr {
 .skincare{
     width: 400px;
     height: 350px;
-    /* line-height: 400px; */
     color:white;
-    background: rgb(159, 159, 92);
+    background: darkolivegreen;
     border: 2px solid white;
-    outline: rgb(159, 159, 92) solid 15px;
-    margin: auto;  
-    padding: 20px;
+    outline: darkolivegreen solid 15px;
+    margin-top: 100px
 }
 .skincareh1 {
     text-align: center;
@@ -109,14 +107,11 @@ hr {
 }
 .skincarereadmore {
     text-align: center;
-    margin: 85px 120px;
+    margin: 49px 140px;
     font-size: 20px;
     color:white;
 }
 .skincarehr {
-    /* position: relative; */
-    /* margin-top: 1rem; */
-    /* border: none; */
     width: 50px;
     height: 2px;
     background: white;
@@ -124,16 +119,19 @@ hr {
 }
 /* ---------------wintercare block--------------------------- */
 .wintercare{
-    width: 450px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     /* line-height: 400px; */
     color:black;
     background-color: white;
     border-style: double;
     border-width: 0.2rem;
-    margin: auto;  
+    margin-top: -300px;
+    margin-left: 425px;
     padding: 20px;
-    position: relative;
+    /* float: right; */
+    position: absolute;
+    display: inline-block;
 }
 .wintercareh1 {
     text-align: center;
@@ -142,24 +140,99 @@ hr {
 }
 .wintercareh5 {
     text-align: center;
-    margin-left: 70px;
+    margin-left: 13px;
     margin-top: 5px;
     font-size: 15px;
 }
 .winterstockup {
     text-align: center;
-    margin: 40px 130px;
+    /* margin: 40px 130px; */
+    margin: 90px;
+    margin-left: 174px;
     font-size: 15px;
     color:black;
+    position: absolute;
     
 }
 .imgcenter {
     display: block;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    height: 60%;
+    width: 60%;
+    height: 50%;
   }
+/* ------------------Allskincare section----------------- */
+.allskincare{
+    width: 430px;
+    height: 550px;
+    /* line-height: 400px; */
+    color:black;
+    background: white;
+    border: 1px solid black;
+    margin-left: -26px;
+    margin-top: 60px;
+
+}
+.allskincareh1 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.allskinshop {
+    text-align: center;
+    margin: 86px 136px;
+    margin-top: 54px;
+    font-size: 15px;
+    color:black;
+}
+.allskincareimg {
+    display: block;
+    margin-top: 47px;
+    margin-left: -42px;
+    /* margin-right: auto; */
+    width: 60%;
+    height: 50%;
+  }
+.allskincarebeautyboost{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+    z-index: 10;
+}
+.beautyboosttext{
+    text-align: center;
+    margin-top: 34px;
+}
+.freeshipping{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-top: 304px;
+    margin-left: 600px;
+    position: absolute;
+}
+.freeshippingtext{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+.freesshippingallorders{
+    text-align: center;
+    margin-top: -15px;
+    /* font-size: 30px; */
+}
+.freesshippingprice{
+    text-align: center;
+    margin-top: -5px;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -181,5 +254,68 @@ hr {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .circle{
+        margin-top: 60px;
+        margin-left: 66px;
+    }
+    .skincare{
+        width: 550px;
+        height: 500px;
+        margin-left: -19px;
+    }
+    .skincareh1 {
+        text-align: center;
+        margin-top: 48px;
+        font-size: 49px;
+        margin-left:10px;
+    }
+    .skincarereadmore {
+        text-align: center;
+        /* margin: 49px 180px; */
+        font-size: 20px;
+        margin-top: 75px;
+        margin-left: 209px;
+    }
+    .skincarehr {
+        width: 50px;
+        height: 2px;
+        margin-left:247px;
+    }
+    .wintercare{
+        width: 571px;
+        height: 818px;
+        margin-top: 1135px;
+        margin-left: -19px;
+    }
+    .allskincare{
+        width: 571px;
+        height: 686px;
+        margin-left: -19px;
+        margin-top: 389px;
+    
+    }
+    .allskincareh1 {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 25px;
+        margin-left: 65px;
+    }
+    .allskinshop {
+        text-align: center;
+        margin: 86px 136px;
+        margin-top: 54px;
+        font-size: 15px;
+        color:black;
+        margin-left: 218px;
+    }
+    .freeshipping{
+        width: 250px;
+        height: 250px;
+        margin-top: -304px;
+        margin-left: 165px;
     }
 }
