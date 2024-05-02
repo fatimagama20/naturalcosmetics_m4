@@ -1,0 +1,1 @@
+[{"pk":1,"model":"products.category","fields":{"category_name":"hair_skin","friendly_name":"Hair & Skin"}},{"pk":2,"model":"products.category","fields":{"category_name":"fragrances","friendly_name":"Fragrances"}}]
