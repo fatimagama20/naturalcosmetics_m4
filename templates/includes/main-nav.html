@@ -1,20 +1,20 @@
 
-<div class="collapse navbar-collapse" id="main-nav">
+<!-- <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Home
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <!-- <a href="" class="dropdown-item">By Price</a>
+                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a> -->
+                <a href="" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=hair_skin,essentials" id="hairandcare-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Hair & Care
             </a>
         </li>
@@ -37,4 +37,23 @@
             </a>
         </li>
     </ul>
-</div>
+</div> -->
+<div class="collapse navbar-collapse" id="main-nav">
+    <ul class="navbar-nav w-auto mx-auto">
+      <li class="nav-item">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=hair_skin">Hair & Skin</a>
+      </li>
+      <li class="nav-item">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=fragrances">Fragrances</a>
+      </li>
+      <li class="nav-item">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
