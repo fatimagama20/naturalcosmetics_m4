@@ -279,7 +279,9 @@ hr {
 @media (max-width: 575.98px){
     .circle{
         margin-top: 60px;
-        margin-left: 66px;
+        margin-left: 50px;
+        width: 350px;
+        height: 350px;
     }
     .skincare{
         width: 550px;
