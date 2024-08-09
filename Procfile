@@ -1,1 +1,1 @@
-web: gunicorn naturalcosmetics.wsgi:application
+web: gunicorn naturalcosmetics_m4.wsgi:application
