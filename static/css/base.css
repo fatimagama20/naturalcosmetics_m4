@@ -128,7 +128,7 @@ a.category-badge > span.badge:hover {
     margin-top: 22px;
 }
 
-hr {
+.circlehr {
     /* position: relative; */
     /* margin-top: 1rem; */
     /* border: none; */
@@ -146,7 +146,8 @@ hr {
     background: darkolivegreen;
     border: 2px solid white;
     outline: darkolivegreen solid 15px;
-    margin-top: 100px
+    margin-top: 100px;
+    margin-right: 20px;
 }
 .skincareh1 {
     text-align: center;
@@ -174,9 +175,10 @@ hr {
     background-color: white;
     border-style: double;
     border-width: 0.2rem;
-    margin-top: -300px;
-    margin-left: 425px;
-    padding: 20px;
+    margin-top: 165px;
+    margin-left: -123px;
+    margin-right: 20px;
+    /* padding: 20px; */
     /* float: right; */
     position: absolute;
     display: inline-block;
@@ -263,8 +265,8 @@ hr {
     border-radius: 50%;
     background-color: black;
     color: white;
-    margin-top: 304px;
-    margin-left: 600px;
+    margin-top: 800px;
+    margin-left: 20px;
     position: absolute;
 }
 .freeshippingtext{
@@ -473,6 +475,29 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/*---------Footer--------*/
+
+.backgroundcolor{
+    background: rgb(162, 194, 162);
+    color: black;
+    font-size: 21px;
+}
+
+.about{
+    font-size: 15px;
+    padding-top: 16px;
+}
+
+.followus{
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.anchortag{
+    margin-right: 10px;
+    color: black;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -487,6 +512,20 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 164px;
     }
+
+    .wintercare{
+        width: 475px;
+        height: 623px;
+        margin-top: 140px;
+        margin-left: 21px;
+    }
+
+    .freeshipping{
+        width: 250px;
+        height: 250px;
+        /* margin-top: 100px; */
+        margin-left: 165px;
+    }
 }
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
@@ -496,6 +535,104 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .circle{
+        margin-top: 60px;
+        margin-left: 145px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .circleshopnow {
+        text-align: center;
+        margin: 85px 132px;
+        font-size: 15px;
+        color:black;
+        margin-top: 22px;
+    }
+
+    .skincare{
+        width: 348px;
+        height: 415px;
+        margin-left: -56px;
+    }
+
+    .skincareh1 {
+        text-align: center;
+        margin-top: 48px;
+        font-size: 34px;
+        margin-left: 10px;
+    }
+    .skincarereadmore {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 74px;
+        margin-left: 117px;
+    }
+
+    .wintercare{
+        width: 381px;
+        height: 600px;
+        margin-top: 140px;
+        margin-left: 1px;
+    }
+
+    .wintercareh1 {
+        text-align: center;
+        margin-top: 75px;
+        font-size: 24px;
+    }
+
+    .wintercareh5 {
+        text-align: center;
+        margin-left: 13px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .winterstockup {
+        text-align: center;
+        /* margin: 36px 131px; */
+        margin: 126px;
+        margin-left: 144px;
+        font-size: 15px;
+        color: black;
+        position: absolute;
+        
+    }
+
+    .imgcenter {
+        width: 64%;
+        height: 38%;
+      }
+
+    .allskincare{
+        width: 348px;
+        height: 415px;
+        margin-left: -56px;
+    
+    }
+    .allskincareh1 {
+        text-align: center;
+        margin-top: 31px;
+        font-size: 23px;
+        margin-left: -3px;
+    }
+    .allskinshop {
+        text-align: center;
+        margin: 81px 103px;
+        margin-top: 26px;
+        font-size: 12px;
+        color: black;
+        margin-left: 132px;
+    }
+
+    .freeshipping{
+        width: 244px;
+        height: 241px;
+        margin-top: 760px;
+        margin-left: 74px;
     }
 }
 
@@ -519,7 +656,6 @@ input[name='q']::placeholder {
     }
     .skincarereadmore {
         text-align: center;
-        /* margin: 49px 180px; */
         font-size: 20px;
         margin-top: 75px;
         margin-left: 209px;

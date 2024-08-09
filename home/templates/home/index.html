@@ -10,10 +10,10 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container p-5">
+    <!-- <div class="container p-5">
         <div class="row circle">
             <h1 class="circleh1">The Power of Nature</h1>
-            <hr>
+            <hr class="circlehr">
             <a class="circleshopnow" href="{% url 'products' %}">Shop Now <i class="fa-solid fa-greater-than"></i></a>
         </div>
         <div class="row skincare">
@@ -39,6 +39,66 @@
                 <hr class="skincarehr">
                 <h6 class="freesshippingallorders">All orders</h6>
                 <h6 class="freesshippingprice">£ {{ free_delivery_threshold }} or more</h6>
+            </div>
+        </div>
+    </div> -->
+    <div class="container p-5">
+        <div class="row circle">
+            <h1 class="circleh1">The Power of Nature</h1>
+            <hr class="circlehr">
+            <a class="circleshopnow" href="{% url 'products' %}">Shop Now <i class="fa-solid fa-greater-than"></i></a>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="row skincare">
+                    <h1 class="skincareh1">All Natural & Organic Skin & Hair Care</h1>
+                    <hr class="skincarehr">
+                    <a class="skincarereadmore" href="#">Read More <i class="fa-solid fa-greater-than"></i></a>
+                </div>
+                <div class="row allskincare">
+                    <div class="allskincarebeautyboost">
+                        <h6 class="beautyboosttext">BEAUTY BOOST</h6>
+                    </div>
+                    <img src="/media/allskincare.jpg" alt="" class="allskincareimg">
+                    <h1 class="allskincareh1">Treat yourself to the luxury of nature</h1>
+                    <a class="allskinshop" href="#">Shop All Skincare <i class="fa-solid fa-greater-than"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="row wintercare">
+                    <img src="/media/winter_fragrance.jpg" alt="" class="imgcenter">
+                    <h1 class="wintercareh1">NEW WINTER FRAGRANCES</h1>
+                    <h5 class="wintercareh5 text-muted">Cinnamon, spice and everything nice</h5>
+                    <a class="winterstockup" href="#">Stock up Now <i class="fa-solid fa-greater-than"></i></a>
+                </div>
+                <div class="freeshipping">
+                    <h3 class="freeshippingtext">FREE SHIPPING</h3>
+                    <hr class="skincarehr">
+                    <h6 class="freesshippingallorders">All orders</h6>
+                    <h6 class="freesshippingprice">£ {{ free_delivery_threshold }} or more</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block page_footer %}
+    <div class="container-fluid backgroundcolor mr-3">
+        <div class="row">
+            <div class="col-sm-4 p-3">
+                <span>About us</span>
+                <p class="about">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            </div>
+            <div class="col-sm-4 p-3">
+                <span>Follow Us</span>
+                <div class="followus">
+                    <a href="http://www.twitter.com" class="anchortag"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://www.facebook.com" class="anchortag"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="http://www.instagram.com" class="anchortag"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4 p-3">
+                <span>Join our mailing list</span>
             </div>
         </div>
     </div>
