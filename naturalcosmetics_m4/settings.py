@@ -31,8 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 # ALLOWED_HOSTS = ['8000-fatimagama2-naturalcosm-cz32zcdmx8n.ws.codeinstitute-ide.net']
-# ALLOWED_HOSTS = ['naturalcosmetics-2fcecfab55d3.herokuapp.com','localhost']
-ALLOWED_HOSTS = ['8000-fatimagama2-naturalcosm-1j9f8c0kk4y.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['naturalcosmetics-2fcecfab55d3.herokuapp.com','localhost']
+# ALLOWED_HOSTS = ['8000-fatimagama2-naturalcosm-1j9f8c0kk4y.ws.codeinstitute-ide.net']
 
 # Application definition
 
