@@ -9,6 +9,7 @@ from .forms import ProductForm
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -25,31 +26,27 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
+        if request.GET:
+            if 'category' in request.GET:
+                categories = request.GET['category'].split(',')
+                products = products.filter(category__category_name__in=categories)
+                categories = Category.objects.filter(category_name__in=categories)
 
         if request.GET:
-           if 'category' in request.GET:
-            categories = request.GET['category'].split(',')
-            products = products.filter(category__category_name__in=categories)
-            categories = Category.objects.filter(category_name__in=categories)
-
-        if request.GET:
-           if 'q' in request.GET:
-            query = request.GET['q']
+            if 'q' in request.GET:
+                query = request.GET['q']
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
             queries = Q(product_name__icontains=query) | Q(description__icontains=query)
-            products = products.filter(queries)
-        
-    current_sorting = f'{sort}_{direction}'
+            products = products.filter(queries)     
 
+    current_sorting = f'{sort}_{direction}'
     context = {
         'products': products,
         'search_term': query,
@@ -89,7 +86,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -133,7 +130,7 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-        
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
