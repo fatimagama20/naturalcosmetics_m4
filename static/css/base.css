@@ -105,7 +105,7 @@ a.category-badge > span.badge:hover {
 
 
 /* -------------------circle block------------------------------- */
-.circle {
+/* .circle {
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -113,13 +113,28 @@ a.category-badge > span.badge:hover {
     background: rgb(162, 194, 162);
     margin-left: 358px;
     margin-top: 15px;
-  }
+  } */
+
+  .circle {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    color: black;
+    background: rgb(162, 194, 162);
+    margin: 15px auto;
+}
 
 .circleh1 {
     text-align: center;
     margin-top: 100px;
     font-size: 45px;
 }
+
+
+/* .circleh1 {
+    font-size: 2.5rem; 
+}  */
+
 .circleshopnow {
     text-align: center;
     margin: 85px 149px;
@@ -154,6 +169,10 @@ a.category-badge > span.badge:hover {
     margin-top: 48px;
     font-size: 37px;
 }
+
+/* .skincareh1 {
+    font-size: 2rem;
+} */
 .skincarereadmore {
     text-align: center;
     margin: 49px 140px;
@@ -170,7 +189,6 @@ a.category-badge > span.badge:hover {
 .wintercare{
     width: 500px;
     height: 600px;
-    /* line-height: 400px; */
     color:black;
     background-color: white;
     border-style: double;
@@ -178,11 +196,22 @@ a.category-badge > span.badge:hover {
     margin-top: 165px;
     margin-left: -123px;
     margin-right: 20px;
-    /* padding: 20px; */
-    /* float: right; */
     position: absolute;
     display: inline-block;
 }
+
+/* .wintercare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-style: double;
+    border-width: 0.2rem;
+    margin-top: 165px;
+} */
+
 .wintercareh1 {
     text-align: center;
     margin-top: 48px;
@@ -212,6 +241,11 @@ a.category-badge > span.badge:hover {
     width: 60%;
     height: 50%;
   }
+
+  /* .imgcenter {
+    width: 60%;
+    height: 50%;
+} */
 /* ------------------Allskincare section----------------- */
 .allskincare{
     width: 430px;
@@ -259,16 +293,28 @@ a.category-badge > span.badge:hover {
     text-align: center;
     margin-top: 34px;
 }
-.freeshipping{
+/* .freeshipping{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+} */
+
+.freeshipping {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     background-color: black;
     color: white;
     margin-top: 800px;
-    margin-left: 20px;
+    margin-left: 40px;
     position: absolute;
 }
+
 .freeshippingtext{
     text-align: center;
     margin-top: 40px;
@@ -315,6 +361,12 @@ a.category-badge > span.badge:hover {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
+
+/* .skincare, .allskincare, .wintercare {
+    width: 100%;
+    max-width: 430px;
+    margin: 20px auto;
+} */
 
 /* ------------------------------- bootstrap toasts */
 
@@ -498,6 +550,18 @@ input[name='q']::placeholder {
     color: black;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(162, 194, 162);
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -593,12 +657,21 @@ input[name='q']::placeholder {
         margin-left: -56px;
     }
 
-    .skincareh1 {
+    /* .skincareh1 {
         text-align: center;
         margin-top: 48px;
         font-size: 34px;
         margin-left: 10px;
+    } */
+
+    .circleh1 {
+        font-size: 1.8rem;
     }
+
+    .skincareh1 {
+        font-size: 1.5rem;
+    }
+
     .skincarereadmore {
         text-align: center;
         font-size: 15px;
@@ -732,5 +805,86 @@ input[name='q']::placeholder {
         height: 250px;
         margin-top: -304px;
         margin-left: 165px;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .circle {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .skincare, .wintercare {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .circleh1, .skincareh1, .wintercareh1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .circleshopnow, .skincarereadmore, .winterstockup {
+        font-size: 14px;
+        margin: 10px auto;
+    }
+
+    .wintercare {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
+
+@media (max-width: 767px) {
+    .circle {
+        width: 70%;  /* Adjust circle size on small screens */
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .circleh1 {
+        font-size: 2rem;  /* Adjust text size */
+    }
+
+    .skincare {
+        width: 100%; /* Take full width on mobile */
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .skincareh1 {
+        font-size: 1.5rem;
+    }
+
+    .wintercare, .allskincare {
+        width: 100%;  /* Ensure these blocks take full width */
+        margin: 20px 0;
+    }
+
+    .wintercareh1, .allskincareh1 {
+        font-size: 1.8rem;
+    }
+
+    .freeshipping {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .freeshippingtext, .freesshippingallorders, .freesshippingprice {
+        font-size: 1.5rem;
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack footer items vertically */
+    }
+
+    .footer-column {
+        padding: 10px;
+        text-align: center;
     }
 }

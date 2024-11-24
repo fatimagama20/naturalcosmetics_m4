@@ -49,7 +49,8 @@
             <a class="circleshopnow" href="{% url 'products' %}">Shop Now <i class="fa-solid fa-greater-than"></i></a>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <!-- <div class="col-sm-6 col-md-6 col-lg-6"> -->
+            <div class="col-12 col-md-6">
                 <div class="row skincare">
                     <h1 class="skincareh1">All Natural & Organic Skin & Hair Care</h1>
                     <hr class="skincarehr">
@@ -64,9 +65,11 @@
                     <a class="allskinshop" href="#">Shop All Skincare <i class="fa-solid fa-greater-than"></i></a>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <!-- <div class="col-sm-6 col-md-6 col-lg-6"> -->
+            <div class="col-12 col-md-6">
                 <div class="row wintercare">
-                    <img src="{{ MEDIA_URL }}winter_fragrance.jpg" alt="" class="imgcenter">
+                    <!-- <img src="{{ MEDIA_URL }}winter_fragrance.jpg" alt="" class="imgcenter"> -->
+                    <img src="{{ MEDIA_URL }}winter_fragrance.jpg" alt="" class="img-fluid imgcenter">
                     <h1 class="wintercareh1">NEW WINTER FRAGRANCES</h1>
                     <h5 class="wintercareh5 text-muted">Cinnamon, spice and everything nice</h5>
                     <a class="winterstockup" href="#">Stock up Now <i class="fa-solid fa-greater-than"></i></a>
@@ -84,12 +87,12 @@
 
 {% block page_footer %}
     <div class="container-fluid backgroundcolor mr-3">
-        <div class="row">
-            <div class="col-sm-4 p-3">
+        <div class="row footer-container">
+            <div class="footer-column">
                 <span>About us</span>
                 <p class="about">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
             </div>
-            <div class="col-sm-4 p-3">
+            <div class="footer-column">
                 <span>Follow Us</span>
                 <div class="followus">
                     <a href="http://www.twitter.com" class="anchortag"><i class="fa-brands fa-twitter"></i></a>
@@ -97,7 +100,7 @@
                     <a href="http://www.instagram.com" class="anchortag"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-sm-4 p-3">
+            <div class="footer-column">
                 <span>Join our mailing list</span>
             </div>
         </div>
