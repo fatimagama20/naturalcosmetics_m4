@@ -808,49 +808,205 @@ input[name='q']::placeholder {
     }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .circle {
+        width: 87%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .circlehr {
+        width: 39px;
+        height: 2px;
+        margin-top: 30px;
+    }
+
+    .circleshopnow {
+        font-size: 14px;
+        margin: -29px 83px;
+    }
+
+    .circleh1 {
+        font-size: 1.8rem;
+        margin-top: 46px;
+    }
+
+    /* .circle {
+        width: 70%;  
+        height: auto;
+        margin: 20px auto;
+    } */
+
+    .skincare {
         width: 90%;
         margin: 10px auto;
         height: auto;
     }
 
-    .skincare, .wintercare {
+    .skincarehr {
+        width: 42px;
+        height: 2px;
+        margin-left: 95px;
+    }
+
+    .wintercare {
         width: 90%;
         margin: 10px auto;
         height: auto;
     }
 
-    .circleh1, .skincareh1, .wintercareh1 {
+    /* .wintercare {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    /* .skincare {
+        width: 100%; 
+        height: auto;
+        margin: 20px 0;
+    } */
+
+    .skincareh1 {
         font-size: 24px;
         margin-top: 20px;
     }
 
-    .circleshopnow, .skincarereadmore, .winterstockup {
+    .skincarereadmore {
         font-size: 14px;
-        margin: 10px auto;
+        margin: 53px 79px
+    }
+
+    
+
+    /* .skincareh1 {
+        font-size: 1.5rem;
+    } */
+
+    
+
+    /* .allskincareh1 {
+        font-size: 1.8rem;
+    } */
+
+    /* .wintercareh1, .allskincareh1 {
+        font-size: 1.8rem;
+    }*/
+
+    /* .circleh1 {
+        font-size: 2rem;  
+    } */
+
+    .allskincare {
+        width: 100%;
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .allskincareimg {
+        margin-top: 44px;
+        width: 61%;
+        height: 32%;
+    }
+
+    .allskincareh1 {
+        /* text-align: center; */
+        margin-top: 39px;
+        font-size: 19px;
+        margin-left: 1px;
+    }
+
+    .allskinshop {
+        /* text-align: center; */
+        margin: 7px;
+        margin-top: 39px;
+        font-size: 13px;
+        /* color: black; */
+        margin-left: 92px;
+    }
+
+    .allskincarebeautyboost {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        margin-top: 27px;
+        margin-left: 20px;
+        z-index: 10;
     }
 
     .wintercare {
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
+        width: 91%;
+        margin: -5px -2px;
+        height: auto;
     }
-} */
 
-@media (max-width: 767px) {
+    .wintercareh1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .wintercareh5 {
+        text-align: center;
+        margin-left: 7px;
+        margin-top: 19px;
+        font-size: 14px;
+    }
+
+    .winterstockup {
+        margin: 9px;
+        margin-left: 98px;
+        font-size: 13px;
+        color: black;
+    }
+
+    .imgcenter {
+        width: 50%;
+        /* height: 38%; */
+    }
+
+    .freeshipping {
+        width: 72%;
+        height: auto;
+        margin: 44px auto;
+        margin-top: 387px;
+    }
+
+    .freeshippingtext {
+        font-size: 1.5rem;
+    }
+
+    .freesshippingallorders {
+        font-size: 0.9rem;
+    }
+
+    .freesshippingprice {
+        font-size: 0.9rem;
+    }
+    .footer-container {
+        flex-direction: column; 
+    }
+
+    .footer-column {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/* @media (max-width: 767px) {
     .circle {
-        width: 70%;  /* Adjust circle size on small screens */
+        width: 70%;  
         height: auto;
         margin: 20px auto;
     }
 
     .circleh1 {
-        font-size: 2rem;  /* Adjust text size */
+        font-size: 2rem;  
     }
 
     .skincare {
-        width: 100%; /* Take full width on mobile */
+        width: 100%; 
         height: auto;
         margin: 20px 0;
     }
@@ -860,7 +1016,7 @@ input[name='q']::placeholder {
     }
 
     .wintercare, .allskincare {
-        width: 100%;  /* Ensure these blocks take full width */
+        width: 100%;  
         margin: 20px 0;
     }
 
@@ -880,11 +1036,11 @@ input[name='q']::placeholder {
     }
 
     .footer-container {
-        flex-direction: column; /* Stack footer items vertically */
+        flex-direction: column; 
     }
 
     .footer-column {
         padding: 10px;
         text-align: center;
     }
-}
+} */
