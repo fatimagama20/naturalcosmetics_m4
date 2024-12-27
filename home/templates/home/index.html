@@ -102,6 +102,13 @@
             </div>
             <div class="footer-column">
                 <span>Join our mailing list</span>
+                <form method="post" action="{% url 'subscribe' %}"> 
+                    {% csrf_token %} {{ form.as_p }} 
+                    <button type="submit">Subscribe</button> 
+                </form> 
+                {% if success %} 
+                <p>Thank you for subscribing! You've been added to our mailing list.</p> 
+                {% endif %}
             </div>
         </div>
     </div>
