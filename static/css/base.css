@@ -578,65 +578,6 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 
-    /* .wintercare{
-        width: 475px;
-        height: 623px;
-        margin-top: 140px;
-        margin-left: 21px;
-    }
-
-    .freeshipping{
-        width: 250px;
-        height: 250px;
-        margin-left: 165px;
-    } */
-}
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
-
-    .nav-link {
-        padding: 0.15rem;
-    }
-
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-    }
-
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
-    }
-
-    /* #delivery-banner h4 {
-        font-size: .9rem;
-    } */
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-    }
-
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-
-    .increment-qty, .decrement-qty {
-        padding: .25rem .5rem !important;
-    }
-
     .circle{
         margin-top: 55px;
         margin-left: 148px;
@@ -687,11 +628,7 @@ input[name='q']::placeholder {
         margin-left: 130px;
     }
     .wintercare{
-        /* width: 361px;
-        height: 587px;
-        margin-top: 140px;
-        margin-left: 1px; */
-        width: 378px;
+        width: 340px;
         height: 587px;
         margin-top: 132px;
         margin-left: 35px;
@@ -713,7 +650,7 @@ input[name='q']::placeholder {
     .winterstockup {
         text-align: center;
         margin: 126px;
-        margin-left: 138px;
+        margin-left: 116px;
         font-size: 13px;
         color: black;
         position: absolute;
@@ -728,7 +665,6 @@ input[name='q']::placeholder {
     .allskincare{
         width: 376px;
         height: 453px;
-        /* margin-left: -60px; */
         margin-left: -27px;
     
     }
@@ -754,10 +690,168 @@ input[name='q']::placeholder {
         margin-left: 103px;
     }
 }
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
 
-@media (max-width: 768px) {
+    body {
+        height: calc(100vh - 116px);
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    /* #delivery-banner h4 {
+        font-size: .9rem;
+    } */
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+
+    /* .circle{
+        margin-top: 55px;
+        margin-left: 148px;
+        width: 338px;
+        height: 330px;
+    }
+
+    .circleshopnow {
+        text-align: center;
+        margin: 85px 117px;
+        font-size: 13px;
+        color: black;
+        margin-top: 21px;
+    }
+
+    .skincare{
+        width: 344px;
+        height: 415px;
+        margin-left: -45px;
+    }
+    .skincare {
+        width: 346px;
+        height: 328px;
+        margin-left: -12px;
+    }
+
+    .skincareh1 {
+        text-align: center;
+        margin-top: 48px;
+        font-size: 34px;
+        margin-left: 10px;
+    } 
+
+    .circleh1 {
+        font-size: 1.8rem;
+        margin-right: 6px;
+        margin-top: 105px;
+    }
+
+    .skincareh1 {
+        font-size: 1.5rem;
+    }
+
+    .skincarereadmore {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 74px;
+        margin-left: 130px;
+    }
+    .wintercare{
+        width: 340px;
+        height: 587px;
+        margin-top: 132px;
+        margin-left: 35px;
+    }
+
+    .wintercareh1 {
+        text-align: center;
+        margin-top: 75px;
+        font-size: 24px;
+    }
+
+    .wintercareh5 {
+        text-align: center;
+        margin-left: 13px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .winterstockup {
+        text-align: center;
+        margin: 126px;
+        margin-left: 116px;
+        font-size: 13px;
+        color: black;
+        position: absolute;
+        
+    }
+
+    .imgcenter {
+        width: 64%;
+        height: 38%;
+      }
+
+    .allskincare{
+        width: 376px;
+        height: 453px;
+        margin-left: -27px;
+    
+    }
+    .allskincareh1 {
+        text-align: center;
+        margin-top: 31px;
+        font-size: 21px;
+        margin-left: 18px;
+    }
+    .allskinshop {
+        text-align: center;
+        margin: 81px 103px;
+        margin-top: 26px;
+        font-size: 12px;
+        color: black;
+        margin-left: 132px;
+    }
+
+    .freeshipping{
+        width: 244px;
+        height: 241px;
+        margin-top: 731px;
+        margin-left: 103px;
+    } */
+}
+
+@media (max-width: 800px) {
     .circle {
-        width: 84%;
+        width: 56%;
         margin: 20px auto;
         height: auto;
     }
@@ -770,7 +864,7 @@ input[name='q']::placeholder {
 
     .circleshopnow {
         font-size: 14px;
-        margin: 64px;
+        margin: 121px;
     }
 
     .circleh1 {
@@ -780,29 +874,30 @@ input[name='q']::placeholder {
     }
 
     .skincare {
-        width: 100%;
-        margin: 10px auto;
+        width: 103%;
+        margin: 38px auto;
         height: auto;
     }
 
     .skincarehr {
         width: 42px;
         height: 2px;
-        margin-left: 112px;
+        margin-left: 129px;
+        margin-top: 57px;
     }
 
     .skincareh1 {
         font-size: 24px;
-        margin-top: 20px;
+        margin-top: 27px;
     }
 
     .skincarereadmore {
         font-size: 14px;
-        margin: 54px 91px;
+        margin: 55px 110px;
     }
 
     .allskincare {
-        width: 110%;
+        width: 113%;
         margin: 25px -14px;
         height: auto;
     }
@@ -816,14 +911,14 @@ input[name='q']::placeholder {
     .allskincareh1 {
         margin-top: 39px;
         font-size: 18px;
-        margin-left: 3px;
+        margin-left: 17px;
     }
 
     .allskinshop {
         margin: 7px;
         margin-top: 39px;
         font-size: 13px;
-        margin-left: 92px;
+        margin-left: 115px;
     }
 
     .allskincarebeautyboost {
@@ -838,10 +933,10 @@ input[name='q']::placeholder {
     }
 
     .wintercare {
-        width: 100%;
-        margin: -1px -14px;
+        width: 93%;
+        margin: 75px 44px;
         height: auto;
-        padding-bottom: 57px;
+        padding-bottom: 52px;
     }
 
     .wintercareh1 {
@@ -858,7 +953,7 @@ input[name='q']::placeholder {
 
     .winterstockup {
         margin: 9px;
-        margin-left: 98px;
+        margin-left: 127px;
         font-size: 13px;
         color: black;
     }
@@ -868,10 +963,10 @@ input[name='q']::placeholder {
     }
 
     .freeshipping {
-        width: 72%;
+        width: 71%;
         height: auto;
-        margin: 10px;
-        margin-top: 447px;
+        margin: 89px;
+        margin-top: 528px;
     }
 
     .freeshippingtext {
@@ -887,7 +982,7 @@ input[name='q']::placeholder {
     }
    
     .footer-container { 
-        margin-top: 574px;
+        margin-top: 10pxpx;
     } 
     .row::after { 
         content: ""; 
@@ -901,12 +996,9 @@ input[name='q']::placeholder {
     }
 } 
 
-/* .container, .container-fluid { overflow: hidden; } */
-/* .footer-container, .footer-column { overflow: hidden; height: auto; }  */
-
-/*@media (max-width: 586px) {
+@media (max-width: 768px) {
     .circle {
-        width: 100%;
+        width: 62%;
         margin: 20px auto;
         height: auto;
     }
@@ -919,7 +1011,157 @@ input[name='q']::placeholder {
 
     .circleshopnow {
         font-size: 14px;
-        margin: 86px;
+        margin: 84px;
+    }
+
+    .circleh1 {
+        font-size: 1.8rem;
+        margin-top: 64px;
+        margin-right: -1px;
+    }
+
+    .skincare {
+        width: 75%;
+        margin: 38px auto;
+        height: auto;
+    }
+
+    .skincarehr {
+        width: 42px;
+        height: 2px;
+        margin-left: 198px;
+        margin-top: 57px;
+    }
+
+    .skincareh1 {
+        font-size: 24px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    }
+
+    .skincarereadmore {
+        font-size: 14px;
+        margin: 55px 179px;
+    }
+
+    .allskincare {
+        width: 82%;
+        margin: 25px 40px;
+        height: auto;
+    }
+
+    .allskincareimg {
+        margin-top: 44px;
+        width: 61%;
+        height: 32%;
+    }
+
+    .allskincareh1 {
+        margin-top: 39px;
+        font-size: 18px;
+        margin-left: 39px;
+    }
+
+    .allskinshop {
+        margin: 7px;
+        margin-top: 39px;
+        font-size: 13px;
+        margin-left: 115px;
+    }
+
+    .allskincarebeautyboost {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        margin-top: 27px;
+        margin-left: 20px;
+        z-index: 10;
+    }
+
+    .wintercare {
+        width: 93%;
+        margin: 75px 44px;
+        height: auto;
+        /* padding-bottom: 52px; */
+    }
+
+    .wintercareh1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .wintercareh5 {
+        text-align: center;
+        margin-left: 7px;
+        margin-top: 19px;
+        font-size: 14px;
+    }
+
+    .winterstockup {
+        margin: 9px;
+        margin-left: 127px;
+        font-size: 13px;
+        color: black;
+    }
+
+    .imgcenter {
+        width: 50%;
+    }
+
+    .freeshipping {
+        width: 71%;
+        height: auto;
+        margin: 89px;
+        margin-top: 528px;
+    }
+
+    .freeshippingtext {
+        font-size: 1.5rem;
+    }
+
+    .freesshippingallorders {
+        font-size: 0.9rem;
+    }
+
+    .freesshippingprice {
+        font-size: 0.9rem;
+    }
+   
+    .footer-container { 
+        margin-top: 10pxpx;
+    } 
+    .row::after { 
+        content: ""; 
+        display: table; 
+        clear: both; 
+    }
+
+    .img-fluid { 
+        width: 50%; 
+        height: auto;
+    }
+} 
+/* .container, .container-fluid { overflow: hidden; } */
+/* .footer-container, .footer-column { overflow: hidden; height: auto; }  */
+
+@media (max-width: 576px) {
+    .circle {
+        width: 98%;
+        margin: 20px auto;
+        height: auto;
+    }
+    .circlehr {
+        width: 39px;
+        height: 2px;
+        margin-top: 25px;
+    }
+
+    .circleshopnow {
+        font-size: 14px;
+        margin: 83px;
     }
 
     .circleh1 {
@@ -950,8 +1192,8 @@ input[name='q']::placeholder {
     }
 
     .allskincare {
-        width: 110%;
-        margin: 25px -14px;
+        width: 111%;
+        margin: 23px -14px;
         height: auto;
     }
 
@@ -987,7 +1229,7 @@ input[name='q']::placeholder {
 
     .wintercare {
         width: 100%;
-        margin: -1px -14px;
+        margin: -4px -12px;
         height: auto;
         padding-bottom: 57px;
     }
@@ -1016,10 +1258,10 @@ input[name='q']::placeholder {
     }
 
     .freeshipping {
-        width: 72%;
+        width: 76%;
         height: auto;
-        margin: 10px;
-        margin-top: 447px;
+        margin: 28px;
+        margin-top: 409px;
     }
 
     .freeshippingtext {
@@ -1047,4 +1289,4 @@ input[name='q']::placeholder {
         width: 50%; 
         height: auto;
     }
-} */
+}
