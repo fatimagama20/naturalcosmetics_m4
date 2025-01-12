@@ -757,7 +757,7 @@ input[name='q']::placeholder {
 
 @media (max-width: 768px) {
     .circle {
-        width: 100%;
+        width: 84%;
         margin: 20px auto;
         height: auto;
     }
@@ -770,12 +770,13 @@ input[name='q']::placeholder {
 
     .circleshopnow {
         font-size: 14px;
-        margin: 86px;
+        margin: 64px;
     }
 
     .circleh1 {
         font-size: 1.8rem;
-        margin-top: 46px;
+        margin-top: 64px;
+        margin-right: -1px;
     }
 
     .skincare {
@@ -789,12 +790,6 @@ input[name='q']::placeholder {
         height: 2px;
         margin-left: 112px;
     }
-
-    /* .wintercare {
-        width: 90%;
-        margin: 10px auto;
-        height: auto;
-    } */
 
     .skincareh1 {
         font-size: 24px;
@@ -890,27 +885,7 @@ input[name='q']::placeholder {
     .freesshippingprice {
         font-size: 0.9rem;
     }
-
-    /* .footer-container {
-        flex-direction: column;
-        display: flex;
-    } */
-
-    /* .footer-column {
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-    } */
-    
-    /* .backgroundcolor {
-        background: rgb(162, 194, 162);
-        color: black;
-        font-size: 21px;
-    } */
-    /* .wintercare, .freeshipping { 
-        margin-bottom: 30px; 
-        padding-bottom: 20px;
-    }  */
+   
     .footer-container { 
         margin-top: 574px;
     } 
@@ -929,10 +904,9 @@ input[name='q']::placeholder {
 /* .container, .container-fluid { overflow: hidden; } */
 /* .footer-container, .footer-column { overflow: hidden; height: auto; }  */
 
-@media only screen and (max-width: 375px) 
-{ /* Your styles for smaller screens */
+/*@media (max-width: 586px) {
     .circle {
-        width: 61%;
+        width: 100%;
         margin: 20px auto;
         height: auto;
     }
@@ -942,4 +916,135 @@ input[name='q']::placeholder {
         height: 2px;
         margin-top: 25px;
     }
-}
+
+    .circleshopnow {
+        font-size: 14px;
+        margin: 86px;
+    }
+
+    .circleh1 {
+        font-size: 1.8rem;
+        margin-top: 46px;
+    }
+
+    .skincare {
+        width: 100%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .skincarehr {
+        width: 42px;
+        height: 2px;
+        margin-left: 112px;
+    }
+
+    .skincareh1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .skincarereadmore {
+        font-size: 14px;
+        margin: 54px 91px;
+    }
+
+    .allskincare {
+        width: 110%;
+        margin: 25px -14px;
+        height: auto;
+    }
+
+    .allskincareimg {
+        margin-top: 44px;
+        width: 61%;
+        height: 32%;
+    }
+
+    .allskincareh1 {
+        margin-top: 39px;
+        font-size: 18px;
+        margin-left: 3px;
+    }
+
+    .allskinshop {
+        margin: 7px;
+        margin-top: 39px;
+        font-size: 13px;
+        margin-left: 92px;
+    }
+
+    .allskincarebeautyboost {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        margin-top: 27px;
+        margin-left: 20px;
+        z-index: 10;
+    }
+
+    .wintercare {
+        width: 100%;
+        margin: -1px -14px;
+        height: auto;
+        padding-bottom: 57px;
+    }
+
+    .wintercareh1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .wintercareh5 {
+        text-align: center;
+        margin-left: 7px;
+        margin-top: 19px;
+        font-size: 14px;
+    }
+
+    .winterstockup {
+        margin: 9px;
+        margin-left: 98px;
+        font-size: 13px;
+        color: black;
+    }
+
+    .imgcenter {
+        width: 50%;
+    }
+
+    .freeshipping {
+        width: 72%;
+        height: auto;
+        margin: 10px;
+        margin-top: 447px;
+    }
+
+    .freeshippingtext {
+        font-size: 1.5rem;
+    }
+
+    .freesshippingallorders {
+        font-size: 0.9rem;
+    }
+
+    .freesshippingprice {
+        font-size: 0.9rem;
+    }
+   
+    .footer-container { 
+        margin-top: 574px;
+    } 
+    .row::after { 
+        content: ""; 
+        display: table; 
+        clear: both; 
+    }
+
+    .img-fluid { 
+        width: 50%; 
+        height: auto;
+    }
+} */
