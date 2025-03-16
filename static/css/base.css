@@ -156,14 +156,14 @@ a.category-badge > span.badge:hover {
 
 /* ---------------skincare block--------------------------- */
 .skincare{
-    width: 400px;
+    width: 354px;
     height: 350px;
-    color:white;
+    color: white;
     background: darkolivegreen;
     border: 2px solid white;
     outline: darkolivegreen solid 15px;
     margin-top: 100px;
-    margin-right: 20px;
+    margin-left: -57px;
 }
 
 .skincareh1 {
@@ -174,7 +174,7 @@ a.category-badge > span.badge:hover {
 
 .skincarereadmore {
     text-align: center;
-    margin: 49px 140px;
+    margin: 49px 116px;
     font-size: 20px;
     color:white;
 }
@@ -186,14 +186,14 @@ a.category-badge > span.badge:hover {
 }
 /* ---------------wintercare block--------------------------- */
 .wintercare{
-    width: 453px;
+    width: 386px;
     height: 600px;
-    color:black;
+    color: black;
     background-color: white;
     border-style: double;
     border-width: 0.2rem;
     margin-top: 165px;
-    margin-left: -24px;
+    margin-left: -3px;
     margin-right: 20px;
     position: absolute;
     display: inline-block;
@@ -226,9 +226,9 @@ a.category-badge > span.badge:hover {
     text-align: center;
     /* margin: 40px 130px; */
     margin: 90px;
-    margin-left: 174px;
+    margin-left: 157px;
     font-size: 15px;
-    color:black;
+    color: black;
     position: absolute;
     
 }
@@ -243,14 +243,14 @@ a.category-badge > span.badge:hover {
 
 /* ------------------Allskincare section----------------- */
 .allskincare{
-    width: 430px;
+    width: 387px;
     height: 550px;
-    /* line-height: 400px; */
-    color:black;
+    line-height: 397px;
+    color: black;
     background: white;
     border: 1px solid black;
-    margin-left: -26px;
-    margin-top: 60px;
+    margin-left: -73px;
+    margin-top: 45px;
 }
 
 .allskincareh1 {
@@ -262,10 +262,10 @@ a.category-badge > span.badge:hover {
 
 .allskinshop {
     text-align: center;
-    margin: 86px 136px;
-    margin-top: 54px;
+    margin: 86px 128px;
+    margin-top: -145px;
     font-size: 15px;
-    color:black;
+    color: black;
 }
 
 .allskincareimg {
@@ -850,7 +850,7 @@ input[name='q']::placeholder {
     } */
 }
 
-/*
+
 @media (max-width: 800px) {
     .circle {
         width: 56%;
@@ -901,13 +901,23 @@ input[name='q']::placeholder {
     .allskincare {
         width: 113%;
         margin: 25px -14px;
-        height: auto;
+        height: 437px;
     }
+    /* .allskincare {
+        width: 339px;
+        height: 437px;
+        line-height: 397px;
+        color: black;
+        background: white;
+        border: 1px solid black;
+        margin-left: -17px;
+        margin-top: -11px;
+    } */
 
     .allskincareimg {
         margin-top: 44px;
         width: 61%;
-        height: 32%;
+        height: 50%;
     }
 
     .allskincareh1 {
@@ -918,7 +928,7 @@ input[name='q']::placeholder {
 
     .allskinshop {
         margin: 7px;
-        margin-top: 39px;
+        margin-top: -153px;
         font-size: 13px;
         margin-left: 115px;
     }
@@ -933,7 +943,7 @@ input[name='q']::placeholder {
         margin-left: 20px;
         z-index: 10;
     }
-
+    
     .wintercare {
         width: 93%;
         margin: 75px 44px;
@@ -984,7 +994,7 @@ input[name='q']::placeholder {
     }
    
     .footer-container { 
-        margin-top: 10pxpx;
+        margin-top: 10px;
     } 
     .row::after { 
         content: ""; 
@@ -996,7 +1006,7 @@ input[name='q']::placeholder {
         width: 50%; 
         height: auto;
     }
-} */
+}
 
 @media (max-width: 768px) {
     .circle {
