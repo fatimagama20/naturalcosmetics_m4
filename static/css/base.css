@@ -1033,7 +1033,7 @@ input[name='q']::placeholder {
     }
 
     .skincare {
-        width: 89%;
+        width: 93%;
         margin: 38px auto;
         height: auto;
     }
@@ -1053,7 +1053,7 @@ input[name='q']::placeholder {
     
     .skincarereadmore {
         font-size: 15px;
-        margin: 55px 66px;
+        margin: 55px 80px;
     }
 
     .allskincare {
