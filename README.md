@@ -3,11 +3,11 @@
 
 [Click here to launch a natural cosmetics app](https://naturalcosmetics-2fcecfab55d3.herokuapp.com/)
 
-Organize your Food Recipe (Website), and Categories help you organize and define your recipes. Course, Cuisine, Main Ingredient, can be customized to whatever you'd like! Add, edit, or remove any of the options in these categories and then add them to your recipes to organize your recipe.
+Welcome to Natural Cosmetics, your trusted source for high-performance, guilt-free skincare. We understand the challenges of finding products that are effective, safe, and environmentally responsible.​
 
 ![](https://github.com/fatimagama20/food-receipe/blob/main/foodrecipe/screenshots/recipewebsite.png?raw=true)
 
-# About Foodrecipe
+# About Natural cosmetics
 
 A recipe is a set of instructions that describes how to prepare or make something, especially a dish of prepared food.
 
