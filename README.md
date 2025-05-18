@@ -9,29 +9,83 @@ Welcome to Natural Cosmetics, your trusted source for high-performance, guilt-fr
 
 # About Natural cosmetics
 
-A recipe is a set of instructions that describes how to prepare or make something, especially a dish of prepared food.
+Natural cosmetics are beauty and personal care products made primarily from natural ingredients—such as plant extracts, essential oils, minerals, and other naturally derived substances—without or with minimal use of synthetic chemicals. These products aim to be safer for human health and more environmentally friendly than conventional cosmetics.
 
-##  Foodrecipe goals
+## TABLE OF CONTENTS
 
-This food recipe app allows users to sift through tons of recipes, and check cooking intructions. It also lets users know the main ingredients, and the type of meal, which the user wants to make.
+* [User Experience](#user-experience)
+    * [User Stories](#user-stories)
+* [Design](#design)    
+    * [Typography](#typography)
+    * [Colour Scheme](#colour-scheme)
+    * [Wireframes](#wireframes)
+* [Database Design](#database-design)
+    * [Relational Database](#relational-database)
+    * [Entity Relationship Diagram](#entity-relationship-diagram)
+* [Models](#models)
+    * [Custom Models](#custom-models)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+    * [Front End Technologies](#front-end-technologies)
+    * [Back End Technologies](#back-end-technologies)
+    * [Additional Technologies](#additional-technologies)
+* [Credits](#credits)
+    * [Code](#code) 
+    * [Content](#content)
+    * [Media](#media) 
+    * [Acknowledgements](#acknowledgements)  
 
 # User Experience (UX)
 * ## User stories
-  * ### First time visitors goal
-    * As a first time visitor, I want to easily understand the main purpose of the app and learn more about the feature of the app 
-    * As a first time visitor, I want to look for different recipes and then add the recipes along with ingredients and categories.
-    * Look to edit a recipe, ingredients and categories
-    * User can delete recipe, category and ingredient at any time
-    * Guide users by providing detailed instructions for preparing various dishes       
-    * Offering comprehensive information on ingredients.
-    * Provide step-by-step cooking procedures
+  * ### First time customer goal
+      #### As a first-time customer, I want:
 
-  * ### Frequent User Goals
-    * As a frequent User, I want to see if the preparation time
-    * As a Frequent User, I want to see calories
-    * As a Frequent User, I want to see who added the recipe
-    * As a Frequent User, I want to see the reviews
-    
+     1. To clearly understand the benefits of natural cosmetics so that I can decide if they suit my needs.
+
+     2. To read honest reviews from other customers so that I can trust the product before buying.
+
+     3. To try sample sizes or starter kits so that I can test the products before committing to full sizes.
+
+     4. To easily find ingredient information so that I know what I’m buying aligns with my values.
+
+     5. To have a smooth and secure checkout experience so that I feel confident purchasing from the site.
+
+  * ### Returning Customer Goals
+      #### As a returning customer, I want:
+
+     1. To quickly reorder my favorite products so that I can save time.
+
+     2. To view my order history and track shipments so that I can stay organized.
+
+     3. To receive personalized product recommendations based on past purchases so that I discover new items I might like.
+
+     4. To get loyalty points or discounts for being a repeat customer so that I feel valued.
+
+     5. To leave feedback or reviews so that I can share my experience with others.
+
+* ### Frequent Customer Goals
+   #### As a frequent customer, I want:
+
+     1. To subscribe to auto-delivery or bundles so that I never run out of my essentials.
+
+     2. To get early access to new product launches or limited editions so that I feel like a VIP.
+
+     3. To engage with the brand via community forums or social media so that I feel more connected.
+
+     4. To access exclusive content (e.g., skincare tips, DIY recipes) so that I get more value from the brand.
+
+* ### Site Owner Goals
+    #### As the site owner, I want:
+
+     1. To convert first-time visitors into buyers so that I grow my customer base.
+
+     2. To track customer behavior (clicks, purchases, time on page) so that I can optimize the user experience.
+
+     3. To reduce cart abandonment with reminders or incentives so that I improve sales performance.
+
+     4. To segment my audience (new vs. loyal) so that I can send targeted marketing messages.
+
+     5. To promote sustainability and transparency so that I build trust and strengthen my brand identity.
 
 * ## Design
   * ### Colour Scheme
