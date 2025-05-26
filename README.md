@@ -79,7 +79,7 @@ Natural cosmetics are beauty and personal care products made primarily from natu
 
      1. To convert first-time visitors into buyers so that I grow my customer base.
 
-     2. To track customer behavior (clicks, purchases, time on page) so that I can optimize the user experience.
+     2. To track customer behavior (clicks, purchases) so that I can optimize the user experience.
 
      3. To reduce cart abandonment with reminders or incentives so that I improve sales performance.
 
@@ -90,18 +90,20 @@ Natural cosmetics are beauty and personal care products made primarily from natu
 * ## Design
   * ### Colour Scheme
     
-    I have chosen to use the blue and white as the main colour, alongside grey and black, as well as using the accent colours red and light green.   
-    Red is used as a warning colour on buttons used for deletion. Green accent is used for the edit button to easily differentiate the buttons.
+    I have chosen to use the black and and white as the main colour
   
-    * Card colour - #03a9f4
-    * Delete button - #888e5f
-    * Edit button - #F44336
-    * Text colour - #fff
+    * Background colour - #555
+    * Button - # White
+    * Outline - #fff
+    * Skincare section - #darkolivegreen
+    * Input name placeholder - #aab7c4
+    * Inner content - #6c757d
+
 
 
   * ### Typography
 
-    * Default fonts is used throughtout the website. I haven't use google fonts
+    * Font-family : Lato
 
   * ### Imagery
     * On the Homepage, I have used a professionally presented food image to suit the purpose of the website, which is providing a good impression for the visitors.
