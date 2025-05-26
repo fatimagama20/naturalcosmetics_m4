@@ -5,7 +5,7 @@
 
 Welcome to Natural Cosmetics, your trusted source for high-performance, guilt-free skincare. We understand the challenges of finding products that are effective, safe, and environmentally responsible.​
 
-![](https://github.com/fatimagama20/food-receipe/blob/main/foodrecipe/screenshots/recipewebsite.png?raw=true)
+![](https://github.com/fatimagama20/naturalcosmetics_m4/blob/main/media/mockup.jpg?raw=true)
 
 # About Natural cosmetics
 
@@ -109,10 +109,21 @@ Natural cosmetics are beauty and personal care products made primarily from natu
     * On the Homepage, I have used a professionally presented food image to suit the purpose of the website, which is providing a good impression for the visitors.
   
 * ## Wireframes
-  * ### Home page Wireframe - [View](https://github.com/fatimagama20/food-receipe/blob/main/foodrecipe/wireframes/home.png)
-  * ### New recipe Wireframe - [View](https://github.com/fatimagama20/food-receipe/blob/main/foodrecipe/wireframes/newrecipe.png)
-  * ### Ingredients Wireframe - [View](https://github.com/fatimagama20/food-receipe/blob/main/foodrecipe/wireframes/ingredients.png)
-  * ### Categories Wireframe - [View](https://github.com/fatimagama20/food-receipe/blob/main/foodrecipe/wireframes/categories.png)
+  * ### Home page Wireframe
+  
+  ![](https://github.com/fatimagama20/naturalcosmetics_m4/blob/main/wireframes/homePage.png?raw=true)
+  
+  * ### Hair & Skincare Products
+
+  ![](https://github.com/fatimagama20/naturalcosmetics_m4/blob/main/wireframes/hairandcare.png?raw=true)
+
+  * ### Fragrances Products
+
+  ![](https://github.com/fatimagama20/naturalcosmetics_m4/blob/main/wireframes/fragrances.png?raw=true)
+
+  * ### Contact us page
+
+  ![](https://github.com/fatimagama20/naturalcosmetics_m4/blob/main/wireframes/contactus.png?raw=true)
 
 # Database Schema
 
