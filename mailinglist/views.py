@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .forms import SubscriberForm
 
+
 def subscribe(request):
     success = False
     if request.method == 'POST':

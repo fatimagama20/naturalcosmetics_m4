@@ -3,6 +3,7 @@ from django.contrib import messages
 from .forms import ContactForm
 from .models import Contact
 
+
 def contact_view(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
@@ -12,7 +13,7 @@ def contact_view(request):
             return redirect(reverse('contact'))
     else:
         form = ContactForm()
-    
+
     template = 'contact/contact.html'
     context = {
         'form': form,
