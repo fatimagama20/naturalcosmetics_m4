@@ -17,37 +17,37 @@
             <div class="col-12">
                 <h1 class="circleh1">The Power of Nature</h1>
                 <hr class="circlehr">
-                <a class="circleshopnow" href="{% url 'products' %}">Shop Now<i class="fa-solid fa-greater-than"></i></a>
+                <a class="circleshopnow" aria-label="Shop natural skincare now" href="{% url 'products' %}">Shop Now<i class="fa-solid fa-greater-than"></i></a>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="row skincare">
-                        <h1 class="skincareh1">All Natural & Organic Skin & Hair Care</h1>
+                        <h2 class="skincareh1">All Natural & Organic Skin & Hair Care</h2>
                     <hr class="skincarehr">
-                    <a class="skincarereadmore" href="{% url 'products' %}">Read More<i class="fa-solid fa-greater-than"></i></a>
+                    <a class="skincarereadmore" aria-label="Read more about our natural skin and hair care line" href="{% url 'products' %}">Read More<i class="fa-solid fa-greater-than"></i></a>
                 </div>
                 <div class="row allskincare">
                     <div class="allskincarebeautyboost">
-                        <h6 class="beautyboosttext">BEAUTY BOOST</h6>
+                        <h3 class="beautyboosttext">BEAUTY BOOST</h3>
                     </div>
-                    <img src="{{ MEDIA_URL }}allskincare.jpg" alt="" class="allskincareimg">
-                    <h1 class="allskincareh1">Treat yourself to the luxury of nature</h1>
-                    <a class="allskinshop" href="#">Shop All Skincare <i class="fa-solid fa-greater-than"></i></a>
+                    <img src="{{ MEDIA_URL }}allskincare.webp" alt="All skin care" class="allskincareimg img-fluid">
+                    <h2 class="allskincareh1">Treat yourself to the luxury of nature</h2>
+                    <a class="allskinshop" aria-label="Shop all skincare products" href="#">Shop All Skincare <i class="fa-solid fa-greater-than"></i></a>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="row wintercare">
-                    <img src="{{ MEDIA_URL }}winter_fragrance.jpg" alt="" class="img-fluid imgcenter">
-                    <h1 class="wintercareh1">NEW WINTER FRAGRANCES</h1>
-                    <h5 class="wintercareh5 text-muted">Cinnamon, spice and everything nice</h5>
-                    <a class="winterstockup" href="#">Stock up Now <i class="fa-solid fa-greater-than"></i></a>
+                    <img src="{{ MEDIA_URL }}winter_fragrance.jpg" alt="Winter fragrance" class="img-fluid imgcenter">
+                    <h2 class="wintercareh1">NEW WINTER FRAGRANCES</h2>
+                    <p class="wintercareh5 text-muted">Cinnamon, spice and everything nice</p>
+                    <a class="winterstockup" href="#" aria-label="Stock up on winter fragrances">Stock up Now <i class="fa-solid fa-greater-than"></i></a>
                 </div>
                 <div class="freeshipping">
                     <h3 class="freeshippingtext">FREE SHIPPING</h3>
                     <hr class="skincarehr">
-                    <h6 class="freesshippingallorders">All orders</h6>
-                    <h6 class="freesshippingprice">£ {{ free_delivery_threshold }} or more</h6>
+                    <p class="freesshippingallorders">All orders</p>
+                    <p class="freesshippingprice">£ {{ free_delivery_threshold }} or more</p>
                 </div>
             </div>
         </div>
@@ -64,9 +64,18 @@
             <div class="footer-column">
                 <span>Follow Us</span>
                 <div class="followus">
-                    <a href="http://www.twitter.com" class="anchortag"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="http://www.facebook.com" class="anchortag"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="http://www.instagram.com" class="anchortag"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.twitter.com" class="social-icon-link" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+                        <span class="sr-only">Twitter</span>
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="http://www.facebook.com" class="social-icon-link" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+                        <span class="sr-only">Facebook</span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="http://www.instagram.com" class="social-icon-link" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+                        <span class="sr-only">Instagram</span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </div>
             </div>
             <div class="footer-column">

@@ -24,25 +24,25 @@
 The W3C Markup Validator was used to validate some of the tutorial templates similar to the Boutique Ado project. There was a warning to suggests that the type attribute specified in the script tag was unnecessary for JavaScript resources on some of the pages.
 I tested all custom templates - the blog templates, the subscribe template and the stockists template. They all had no errors, except for the stockists template. I updated a closing tag missing and checked for others although the validator did not recognise my updates to the file. I checked using direct input instead and the only errors were related to the Django syntax and not the html. 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/media/validation/html-validation/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/media/htmlvalidation.png)
 
 ### CSS Validation
 
 The W3C CSS Validator was used to validate the base.css file which showed no errors.
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/media/w3cssvalidation.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](media/w3cssvalidation.png)
 
 ### JavaScript Validation
 
 The JSHint validation service was used to used to validate JavaScript used for Stripe functionality in the project. There were 2 warnings related to the ES6 version of JavaScript
 
--   [JSHint Validator](https://jshint.com/) - [Results](/media/validation/js-validation-stripe.png)
+-   [JSHint Validator](https://jshint.com/) - [Results](media/jsvalidation.png)
 
 ### Python Validation
 
 The Code Institute Python Linter was used to validate every page of the project to ensure there were no syntax errors in the project. I amended any errors for example: syntax and line breaks - the remaining errors are related to lines of code being too long in some files. However, I wanted to preserve clarity and readability of the code, so I left the code as it is.
 
--   [CI Python Linter ](https://pep8ci.herokuapp.com/) - [Results](/media/validation/py-validation/)
+-   [CI Python Linter ](https://pep8ci.herokuapp.com/) - [Results](media/pythonvalidations)
 
 ### Lighthouse Report
 
