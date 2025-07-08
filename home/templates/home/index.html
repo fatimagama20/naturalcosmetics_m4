@@ -31,14 +31,14 @@
                     <div class="allskincarebeautyboost">
                         <h3 class="beautyboosttext">BEAUTY BOOST</h3>
                     </div>
-                    <img src="{{ MEDIA_URL }}allskincare.webp" alt="All skin care" class="allskincareimg img-fluid">
+                    <img src="{{ MEDIA_URL }}allskincare.webp" loading="lazy" alt="All skin care" class="allskincareimg img-fluid">
                     <h2 class="allskincareh1">Treat yourself to the luxury of nature</h2>
                     <a class="allskinshop" aria-label="Shop all skincare products" href="#">Shop All Skincare <i class="fa-solid fa-greater-than"></i></a>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="row wintercare">
-                    <img src="{{ MEDIA_URL }}winter_fragrance.jpg" alt="Winter fragrance" class="img-fluid imgcenter">
+                    <img src="{{ MEDIA_URL }}winter_fragrance.jpg" loading="lazy" alt="Winter fragrance" class="img-fluid imgcenter">
                     <h2 class="wintercareh1">NEW WINTER FRAGRANCES</h2>
                     <p class="wintercareh5 text-muted">Cinnamon, spice and everything nice</p>
                     <a class="winterstockup" href="#" aria-label="Stock up on winter fragrances">Stock up Now <i class="fa-solid fa-greater-than"></i></a>
@@ -82,7 +82,7 @@
                 <span>Join our mailing list</span>
                 <form method="post" action="{% url 'subscribe' %}">
                     {% csrf_token %} {{ form.as_p }}
-                    <button type="submit">Subscribe</button>
+                    <button aria-label="Subscribe" type="submit">Subscribe</button>
                 </form>
                 {% if success %}
                     <p>Thank you for subscribing! You've been added to our mailing list.</p>
