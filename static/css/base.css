@@ -968,7 +968,7 @@ input[name='q']::placeholder {
         width: 103%;
         margin: -163px -22px;
         height: auto;
-        padding-bottom: 57px;
+        padding-bottom: 51px;
     }
 
     .wintercareh1 {
@@ -995,10 +995,10 @@ input[name='q']::placeholder {
     }
 
     .freeshipping {
-        width: 78%;
+        width: 72%;
         height: auto;
         margin: 7px;
-        margin-top: 250px;
+        margin-top: 266px;
     }
 
     .freeshippingtext {
