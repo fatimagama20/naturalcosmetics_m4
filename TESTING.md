@@ -55,7 +55,7 @@ I used Lighthouse to audit the site to evaluate performance, accessibility, SEO 
 
 As well as validating all html, css, js & python files, I have checked compatibilities across a selection of browsers and devices.
 
-- <img src="media/browser-test.png">
+- <img src="media/Browsertesting.png">
 
 ### Transactional Email
 
