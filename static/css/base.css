@@ -886,8 +886,8 @@ input[name='q']::placeholder {
 
 @media (max-width: 576px) {
     .circle {
-        width: 90%;
-        margin: 20px auto;
+        width: 100%;
+        margin: -34px 5px;
         height: auto;
     }
     .circlehr {
@@ -907,8 +907,8 @@ input[name='q']::placeholder {
     }
 
     .skincare {
-        width: 97%;
-        margin: 10px auto;
+        width: 92%;
+        margin: 55px -8px;
         height: auto;
     }
 
@@ -929,8 +929,8 @@ input[name='q']::placeholder {
     }
 
     .allskincare {
-        width: 108%;
-        margin: 23px -11px;
+        width: 102%;
+        margin: -21px -20px;
         height: 41%;
     }
 
@@ -965,8 +965,8 @@ input[name='q']::placeholder {
     }
 
     .wintercare {
-        width: 97%;
-        margin: -201px -9px;
+        width: 93%;
+        margin: -163px -22px;
         height: auto;
         padding-bottom: 57px;
     }
@@ -997,7 +997,7 @@ input[name='q']::placeholder {
     .freeshipping {
         width: 78%;
         height: auto;
-        margin: 36px;
+        margin: -2px;
         margin-top: 250px;
     }
 
