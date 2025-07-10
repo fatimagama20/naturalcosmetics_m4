@@ -907,7 +907,7 @@ input[name='q']::placeholder {
     }
 
     .skincare {
-        width: 92%;
+        width: 102%;
         margin: 55px -8px;
         height: auto;
     }
@@ -929,9 +929,9 @@ input[name='q']::placeholder {
     }
 
     .allskincare {
-        width: 102%;
+        width: 113%;
         margin: -21px -20px;
-        height: 41%;
+        height: 40%;
     }
 
     .allskincareimg {
@@ -965,7 +965,7 @@ input[name='q']::placeholder {
     }
 
     .wintercare {
-        width: 93%;
+        width: 103%;
         margin: -163px -22px;
         height: auto;
         padding-bottom: 57px;
@@ -997,7 +997,7 @@ input[name='q']::placeholder {
     .freeshipping {
         width: 78%;
         height: auto;
-        margin: -2px;
+        margin: 7px;
         margin-top: 250px;
     }
 
