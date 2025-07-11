@@ -67,12 +67,14 @@ I tested to make sure users receive an email at registration to verify their acc
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main products sold by the ecommerce company
+    1. As a First Time Visitor, I want to easily understand the main products sold by the cosmetics company
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Shop Now" Call to action button.
         2. The main visual impression of the brand is evident immediately with the hero image.
 
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find products.
+        <img src="media/mainimage.png">
+
+    2. As a First Time Visitor, I want to navigate easily through the product categories so I can find what I need without confusion
 
         1. At the top of each page there is a clean navigation bar, each link has a dropdown menu which describes what category they will end up at clearly, alternatively the left hand dropdown menu offers a selection of sort methods.
         2. Users can click on a product of interest to find out more about the product and add their chosen quantity to their basket.
