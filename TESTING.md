@@ -78,12 +78,17 @@ I tested to make sure users receive an email at registration to verify their acc
 
         1. At the top of each page there is a clean navigation bar, each link has a dropdown menu which describes what category they will end up at clearly, alternatively the left hand dropdown menu offers a selection of sort methods.
         2. Users can click on a product of interest to find out more about the product and add their chosen quantity to their basket.
-        <img src="media/individual_product_page.png">
+        <img src="media/eachproductpage.png">
         3. There is a Keep Shopping call to action button at the bottom of each product page to return the customer to the main product page.
 
-    3. As a First Time Visitor, I want to look for reviews to understand what their customers think of them and see if they are trusted and provide a good level of service. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-        1. Once the new visitor has visited individual products, the user will be able to see reviews indicating what previous buyers thought about the product.
-        2. The user can also scroll to the bottom of most pages on the site to locate social media links in the footer.
+    3. As a First Time Visitor, I want to sign up for offers or updates
+        ### Acceptance criteria:
+        - Subscribe button is available
+        ### Tests
+        - Does subsribe button allows to send an email
+        - is the confirmation messages or email sent?
+
+        <img src="media/subscribe.png">
 
 -   #### Returning Visitor Goals
 
