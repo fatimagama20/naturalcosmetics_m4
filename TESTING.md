@@ -61,7 +61,8 @@ As well as validating all html, css, js & python files, I have checked compatibi
 
 I tested to make sure users receive an email at registration to verify their account and also an email containing their order details following purchase.
 
-- <img src="media/transactional_email.png">
+- <img src="media/sign-up-emailconfirmation.png">
+- <img src="media/order-confirmation-email.png">
 
 ### Testing User Stories
 
@@ -92,37 +93,36 @@ I tested to make sure users receive an email at registration to verify their acc
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to explore and find new and inspiring dried fruit and nuts to buy.
+    1. As a Returning Visitor, I want to explore and find new product launches or seasonal collections.
 
-        1. These are clearly shown in the product layouts and individual product pages.
-        2. Shoppers will be able to find out about new products when they are anounced in the blog.
+        1. Highlighted on the homepage or via newsletter signups
 
     2. As a Returning Visitor, I want to be able to buy products form the store and get them delivered.
 
         1. The individual product pages allow users to add products to their bag.
         2. A toast message will appear to inform the user they have successfully added the product quantity to the bag.
-        <img src="media/toast_msg1.png">
+        <img src="media/toastmessage.png">
         3. Users can see products listed on the shopping bag page with a total cost information on delivery threshold and a button to click through to the checkout page to purchase.
         4. Users can create an account and buy products for delivery using card payment methods.
         5. The user receives a toast message to confirm if the purchase was successful and the user will receive a confirmation emai to their email address.
 
-    3. As a Returning Visitor, I want to be able to find out more about the nutritional benefits of the products the store sells.
-        1. The Blog Page has a tab on the main navigtion and will open the main blog archive with a list of posts to read. Each post links through to the complete article on a new page.
+    3. As a Returning Visitor, I want to be able track orders and the history
+        1. Quick access to delivery status and history
+        <img src="media/order-history.png">
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to be able to find products easily through search options.
 
-        1. The user can explore the sort methods in the drop down menu on the main navigation and sort products by price rating or category. Each sort optioin has further options such as ordering products from low - high price or alphabetically for example.
+        1. The user can explore the sort methods in the drop down menu on the main navigation and sort products by price rating or category. 
         <img src="media/category_selection.png">
     2. As a Frequent User, I want to sign up and create my own account.
 
         1. Users can set up an account at any time. This would be more relevant to users who buy often and like the speed and convenience of ordering whilst logged into their account. They can also keep a record of past users and their delivery details are autosaved.
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed information about any new products.
-        1. Via the main navigation users can visit the page with a newsletter sign-up form.
-        2. The user can see a form with a name and email field with associated text enticing the user to sign up and the benefits they will recieve by doing so. 
-        3. There is a "Submit" button to the right hand side of the input fields which can easily be distinguished.
+        1. Via the footer users can subscribe by email.
+        2. The user can contact via contact form. 
 
 -   #### Site Owner Goals
 
@@ -130,46 +130,34 @@ I tested to make sure users receive an email at registration to verify their acc
         1. The home page displays a structured navigation with sotrting and filtering functionality, enabling shoppers to find products easily.
         2. Product pages display an image and a clear desription of the product which can be easily added to a basket which is displayed in a modal to the top right of the page. 
 
-    2. As a Site Owner, I want to establish a reular customer base who return and make regular purchases.
+    2. As a Site Owner, I want to establish a regular customer base who return and make regular purchases.
         1. Customers can create their own account through the sign-up page and save their details. They can also see a list of previous purchases within the account layout
-        2. The blog informs customers to recently added products and nutritional benefits of products.
-
-    3. As a Site Owner, I want products to be stocked in high street shops and keep track of stock held by partners.
-        1. The stockists app lists high street vendors who stock the Nutritionist's products.
-        <img src="media/stockists-list.png">
-        2. The shop owner/superuser can update the list manually in the admin area to indicate whether a partner has products or is out of stock. Future development would see this functionality to be developed to indicate what products are in stock and eventually into an automated inventory system.
-
+        2. Contact form can be used to contact
+        3. Can subscribe to the newsletter via subscribe button on the footer section
 
 ### Manual Testing
 | **TEST** | **TEST DETAILS** | **EXPECTED RESULTS** | **ACTUAL RESULTS** | **PASS/FAIL** | **EVIDENCE**
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **TOP HEADER LINKS** |  |  |  |  | [desktop](./media/documentation/top-header-desktop.png), [tablet](./media/documentation/top-header-tablet.png), [mobile](./media/documentation/top-header-mobile.png) |
-| 1 | Access URL: https://nutritionist-rf-f7d23ec1a841.herokuapp.com/ |Site shows home page including Nav & Search Bar, Account, site content & footer | As Expected | Pass |
-| 2 | Click Nutritionist Logo | Site shows home page | As expected | Pass |
+| **TOP HEADER LINKS** |  |  |  |  | [desktop](./media/testingdocument/topheaderdesktop.png), [tablet](./media/testingdocument/topheadertablet.png), [mobile](./media/testingdocument/topheadermobile.png) |
+| 1 | Access URL: http://naturalcosmetics-2fcecfab55d3.herokuapp.com// |Site shows home page including Nav & Search Bar, Account, site content & footer | As Expected | Pass |
+| 2 | Click Natural & Organic Beauty Care Logo | Site shows home page | As expected | Pass |
 | 3 | Search bar | Error msg appears if nothing entered in search bar and produt page displays  | As Expected  | Pass |
 | 4 | Search bar - product search | Return correct results whether search term appears in product name or product description  | As Expected  | Pass |
 | 5 | Account login icon | Click account icon shows login/Register dropdown menu | As Expected  | Pass |
 | 6 | Dropdown Register menu item | Dropdown Register menu item  | As Expected  | Pass |
 | 7 | Dropdown Login menu item | Click Login menu item goes to Login page  | As Expected  | Pass |
 | 8 | Bag icon | Click Bag icon takes user to bag page | As Expected  | Pass |
-| **MAIN NAV LINKS** |  |  |  |  | [desktop](./media/documentation/main-nav-desktop.png), [tablet](./media/documentation/main-nav-tablet.png), [mobile](./media/documentation/main-nav-mobile.png) |
+| **MAIN NAV LINKS** |  |  |  |  | [desktop](./media/Testingdocument/navigationdesktop.png), [tablet](./media/Testingdocument/navigationtablet.png), [mobile](./media/Testingdocument/navigationmobile.png) |
 | 9 | Products menu item | Click All Products menu icon shows drop down with price/rating or All Products options | As Expected  | Pass |
 | 10 | Dropdown Price menu item | Click Price dropdown menu item goes to product sorted by price | As Expected  | Pass |
 | 11 | Dropdown Rating menu icon | Click Rating dropdown menu item goes to product page sorted by rating | As Expected  | Pass |
 | 12 | Dropdown All Products shows menu item | Click all products dropdown goes to product page | As Expected  | Pass |
-| 13 | Nuts, Seed & Mixes menu item  | Click All products menu icon shows drop down with Nuts Seeds, Mixes or all Nuts, seeds % mixes options | As Expected  | Pass |
-| 14 | Dropdown Nuts menu item | Click Nuts dropdown menu item goes to product page displaying Nuts category | As Expected  | Pass |
-| 15 | Dropdown Seeds menu item | Click Seeds dropdown menu item goes to product page displaying Seeds category | As Expected  | Pass |
-| 16 | Dropdown Mixes menu item | Click Mixes dropdown menu item goes to product page displaying Mixes category | As Expected  | Pass |
-| 17 | Dropdown all Nuts, Seeds & Mixes menu item | Click Nuts dropdown menu item goes to product page displaying all nuts, seeds & mixes categories | As Expected  | Pass |
-| 18 | Dried Fruit menu item | Click Dried Fruit  menu icon shows drop down withFruits & Berries, Coated Fruits, All Dried Fruit options | As Expected  | Pass |
-| 19 | Dropdown Fruits & Berries menu item  | Click Fruits & Berries dropdown menu item goes to product page displaying Fruits & Beries category | As Expected  | Pass |
-| 20 | Dropdown Coated Fruits menu item  | Click Coated Fruits dropdown menu item goes to product page displaying Coated Fruits category | As Expected  | Pass |
-| 21 | Dropdown All Dried Fruit menu item   | Click All Dried Fruit menu item dropdown menu item goes to product page displaying All dried fruit categories | As Expected  | Pass |
-| **BLOG** |  |  |  |  | [desktop](./media/documentation/blog-desktop.png), [tablet](./media/documentation/blog-tablet.png), [mobile](./media/documentation/blog-mobile.png) |
-| 22 | Blog menu item | Click Blog menu item goes to Blog page | As Expected  | Pass |
-| 23 | Read more button | Click on Blog List Read More button goes to individual blog post | As Expected  | Pass |
-| 24 | Return to Blog button | Click Return to Blog button goes to Blog List page | As Expected  | Pass |
+| 13 | Hair & Care menu item  | Click Hair & Care menu icon shows all the Hari and Care products | As Expected  | Pass |
+| 14 | Fragrances | Click Fragrances menu item goes to product page displaying fragrances category | As Expected  | Pass |
+| 15 | Contact menu item   | Click contact menu item goes to contact page | As Expected  | Pass |
+| **Subscribe** |  |  |  |  | [desktop](./media/testingdocument/subscribedesktop.png), [tablet](./media/testingdocument/subscribetablet.png), [mobile](./media/testingdocument/subscribemobile.png) |
+| 22 | Subscribe button | Click Subscribe button shows the email text box to enter email | As Expected  | Pass |
+| 23 | Subscribe button after entering an email | Click on the subscribe button after entering an email will receive a confirmation message | As Expected  | Pass |
 | **FOOTER LINKS** |  |  |  |  | [desktop](./media/documentation/footer-desktop.png), [tablet](./media/documentation/footer-tablet.png), [mobile](./media/documentation/footer-mobile.png)  |
 | 25 | Stockists button | Click Stockists button goes to Stockists page | As Expected  | Pass (NB Links to T&C/Privacy policy pages are a future feature) |
 | **NEWSLETTER SIGN UP** |  |  |  |  | [desktop](./media/documentation/newsletter-desktop.png), [tablet](./media/documentation/newsletter-tablet.png), [mobile](./media/documentation/newsletter-mobile.png) |
