@@ -198,16 +198,7 @@ I tested to make sure users receive an email at registration to verify their acc
 | 57 | Order history is correct| The order can be seen in Order History on user profile page | As Expected | Pass |
 | 58 | Test link to order detail on Profile Page| Link takes user to order detail on Order History page in User Profile | As Expected | Pass |
 
-### Solved Bugs
-- I had two paths for the Subscribe App. The path in the Subscribe app urls.py should have been empty rather entered as 'subscribe' , the result being two paths to the Nutritionist urls.py file and one of them could not be identified by Django causing an error.
-
-<img src="media/error-example.png">
-
-<img src="media/error-subscribe.png">
-
-- Email authentication suddenly stopped working after a few weeks for new users registering an account on the site. I checked using Django error page which indicated it was a Google issue. I had to add a new password for access to email authentication via the Django app as Google had deleted the previous one.
-
 ### Known Bugs
-- When a user signs up for a newsletter and already has placed items in the bag - the Success message correctly states a successful signup but appears with contents of bag in the modal - user experience would be improved if the success message didn't include bag products. 
+- When a user clicks on Suscribe button, user is not taken back to the footer to enter an email. User manually need to scroll to the bottom
 
-- Manual testing revealed that users registering a new profile receive an incorrectly formatted email. This will be ammended in Google account settings.
+- After suscribing email is not cleared on refreshing the browser
