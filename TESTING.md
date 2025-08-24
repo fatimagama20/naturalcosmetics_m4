@@ -156,47 +156,47 @@ I tested to make sure users receive an email at registration to verify their acc
 | 14 | Fragrances | Click Fragrances menu item goes to product page displaying fragrances category | As Expected  | Pass |
 | 15 | Contact menu item   | Click contact menu item goes to contact page | As Expected  | Pass |
 | **Subscribe** |  |  |  |  | [desktop](./media/testingdocument/subscribedesktop.png), [tablet](./media/testingdocument/subscribetablet.png), [mobile](./media/testingdocument/subscribemobile.png) |
-| 22 | Subscribe button | Click Subscribe button shows the email text box to enter email | As Expected  | Pass |
-| 23 | Subscribe button after entering an email | Click on the subscribe button after entering an email will receive a confirmation message | As Expected  | Pass |
+| 16 | Subscribe button | Click Subscribe button shows the email text box to enter email | As Expected  | Pass |
+| 17 | Subscribe button after entering an email | Click on the subscribe button after entering an email will receive a confirmation message | As Expected  | Pass |
 | **FOOTER LINKS** |  |  |  |  | [desktop](./media/testingdocument/footerlinksdesktop.png), [tablet](./media/testingdocument/footerlinksmobile.png.png), [mobile](./media/testingdocument/footerlinkstablet.png.png)  |
-| 25 | Social media links | Click social media links redirects to respective page | As Expected  | Pass |
+| 18 | Social media links | Click social media links redirects to respective page | As Expected  | Pass |
 | **USER PROFILE SETUP** |  |  |  |  | [desktop](./media/testingdocument/profile-desktop.png.png), [tablet](./media/testingdocument/profile-tablet.png.png), [mobile](./media/testingdocument/profile-mobile.png.png) |
-| 26 | Sign-up button | Error message appears if nothing entered in input fields or incorrect data | As Expected  | Pass |
-| 27 | Sign-up button |  Alert appears showing email sent to email address for verification | As Expected  | Pass |
-| 28 | Login button |  New unverified users receive alert | As Expected  | Pass |
-| 29 | New users receive email to inbox |  Message appears in inbox - click message returns user to site with confirmation Toast message evident | As Expected  | Pass |
-| 30 | New users receive email to inbox |  Message appears in inbox - click message returns user to site with confirmation Toast message evident | Says example.com in message | Check Error |
-| 31 | Logged in Admin users can access product management page |  Click dropdown menu item - Product management evident | As Expected  | Pass |
-| 31 | Logged in Admin users can access product management page |  Click dropdown menu item - Product management evident | As Expected  | Pass |
-| 32 | Non-admin users cannot access product management page |  Click dropdown menu item - Product management  not evident | As Expected  | Pass |
-| 33 | Admin users can add a product  in product management |  Product is added when fields completed - if no image url added, then default no-image png file displayed | As Expected  | Pass |
-| 34 | CRUD functionality product management - add |  When all fields filled product can be added - of url missing, then default image is used. Product appears on Product page | As Expected  | Pass |
-| 35 | CRUD functionality product management - edit |  Click edit link and fields can be successfully updated  | As Expected  | Pass |
-| 36 | CRUD functionality product management - delete |  Click delete button and toast confirmation of product deletion appears. - redirect to Products page  | As Expected  | Pass |
-| 37 | Profile page shows previous orders |  Click delete button and toast confirmation of product deletion appears. - redirect to Products page  | As Expected  | Pass |
-| 38 | Profile page saves payment details and address fields |  Form fields are saved when checkbox clicked and after aditional logins | As Expected | Pass |
-| 39 | Log out of account as admin and as ordinary user |  Click logout in dropdown under acoount icon goes to logout page | As Expected | Pass |
-| 40 | Sign-out page |  Cancel link takes user to home page whilst logged in, sign out button takes user to homepage & signed out with asuccess message evident | As Expected | Pass |
+| 19 | Sign-up button | Error message appears if nothing entered in input fields or incorrect data | As Expected  | Pass |
+| 20 | Sign-up button |  Alert appears showing email sent to email address for verification | As Expected  | Pass |
+| 21 | Login button |  New unverified users receive alert | As Expected  | Pass |
+| 22 | New users receive email to inbox |  Message appears in inbox - click message returns user to site with confirmation Toast message evident | As Expected  | Pass |
+| 23 | New users receive email to inbox |  Message appears in inbox - click message returns user to site with confirmation Toast message evident | Says example.com in message | Check Error |
+| 22 | Logged in Admin users can access product management page |  Click dropdown menu item - Product management evident | As Expected  | Pass |
+| 23 | Logged in Admin users can access product management page |  Click dropdown menu item - Product management evident | As Expected  | Pass |
+| 24 | Non-admin users cannot access product management page |  Click dropdown menu item - Product management  not evident | As Expected  | Pass |
+| 25 | Admin users can add a product  in product management |  Product is added when fields completed - if no image url added, then default no-image png file displayed | As Expected  | Pass |
+| 26 | CRUD functionality product management - add |  When all fields filled product can be added - of url missing, then default image is used. Product appears on Product page | As Expected  | Pass |
+| 27 | CRUD functionality product management - edit |  Click edit link and fields can be successfully updated  | As Expected  | Pass |
+| 28 | CRUD functionality product management - delete |  Click delete button and toast confirmation of product deletion appears. - redirect to Products page  | As Expected  | Pass |
+| 29 | Profile page shows previous orders |  Click delete button and toast confirmation of product deletion appears. - redirect to Products page  | As Expected  | Pass |
+| 30 | Profile page saves payment details and address fields |  Form fields are saved when checkbox clicked and after aditional logins | As Expected | Pass |
+| 31 | Log out of account as admin and as ordinary user |  Click logout in dropdown under acoount icon goes to logout page | As Expected | Pass |
+| 32 | Sign-out page |  Cancel link takes user to home page whilst logged in, sign out button takes user to homepage & signed out with asuccess message evident | As Expected | Pass |
 | **BAG OPTIONS** |  |  |  |  | [desktop](./media/testingdocument/shopping-bag-desktop.png), [tablet](./media/testingdocument/shopping-bag-tablet.png), [mobile](./media/testingdocument/shopping-bag-mobile.png) |
-| 41 | Bag page displays prices |  Individual prices, Bag total, Grand Total listed accurately | As Expected | Pass |
-| 42 | Bag page displays message if total under free delivery rate |  Message evident with indicated additional spend required for free delivery | As Expected | Pass |
-| 43 | Bag page displays quantity of products required |  Message evident with indicated additional spend required for free delivery | As Expected | Pass |
-| 44 | Bag page has adjustable quantity options |  Users can increase or decrease product quantities - but not zero or minus quantities | As Expected | Pass |
-| 45 | Bag page has adjustable quantity options |  Users can increase or decrease product quantities - but not zero or minus quantities | As Expected | Pass |
-| 46 | Bag page allows product removal |  Users can remove a product from the bag | As Expected | Pass |
-| 47 | Bag page shows product options |  Product options displayed on relevant products | As Expected | Pass |
-| 48 | Secure checkout button |  Secure checkout button goes to checkout page | As Expected | Pass |
-| 49 | Keep shopping button |  Keep shopping button goes to products page | As Expected | Pass |
-| 50 | View bag page without products added |  Keep shopping button goes to products page | As Expected | Pass |
+| 33 | Bag page displays prices |  Individual prices, Bag total, Grand Total listed accurately | As Expected | Pass |
+| 34 | Bag page displays message if total under free delivery rate |  Message evident with indicated additional spend required for free delivery | As Expected | Pass |
+| 35 | Bag page displays quantity of products required |  Message evident with indicated additional spend required for free delivery | As Expected | Pass |
+| 36 | Bag page has adjustable quantity options |  Users can increase or decrease product quantities - but not zero or minus quantities | As Expected | Pass |
+| 37 | Bag page has adjustable quantity options |  Users can increase or decrease product quantities - but not zero or minus quantities | As Expected | Pass |
+| 38 | Bag page allows product removal |  Users can remove a product from the bag | As Expected | Pass |
+| 39 | Bag page shows product options |  Product options displayed on relevant products | As Expected | Pass |
+| 40 | Secure checkout button |  Secure checkout button goes to checkout page | As Expected | Pass |
+| 41 | Keep shopping button |  Keep shopping button goes to products page | As Expected | Pass |
+| 42 | View bag page without products added |  Keep shopping button goes to products page | As Expected | Pass |
 | **CHECKOUT & PAYMENT** |  |  |  |  | [desktop](./media/testingdocument/checkout-desktop.png), [tablet](./media/testingdocument/checkout-tablet.png), [mobile](./media/testingdocument/checkout-mobile.png.png) |
-| 51 | Customer detail form fields cannot be empty when ordering |  Popup appears reminding user that form fields must be filled before submitting order | As Expected | Pass |
-| 52 | Adjust bag link works|  User is taken to bag page | As Expected | Pass |
-| 53 | Warning appears if card expired|  Alert appears indicating expiry date is in the past and order cannot be submitted | As Expected | Pass |
-| 54 | Successful online payment prompts feedback to user|  Toast alerts usert that payment has been successful and provides order number | As Expected | Pass |
-| 55 | Completed order can be viewed in profile section|  Order information is listed on Checkout Success page and information provided to user that a confirmation email has been sent to their email account | As Expected | Pass |
-| 56 | Confirmation email works correctly| Confirmation email has been received and contains correct information | As Expected | Pass |
-| 57 | Order history is correct| The order can be seen in Order History on user profile page | As Expected | Pass |
-| 58 | Test link to order detail on Profile Page| Link takes user to order detail on Order History page in User Profile | As Expected | Pass |
+| 43 | Customer detail form fields cannot be empty when ordering |  Popup appears reminding user that form fields must be filled before submitting order | As Expected | Pass |
+| 44 | Adjust bag link works|  User is taken to bag page | As Expected | Pass |
+| 45 | Warning appears if card expired|  Alert appears indicating expiry date is in the past and order cannot be submitted | As Expected | Pass |
+| 46 | Successful online payment prompts feedback to user|  Toast alerts usert that payment has been successful and provides order number | As Expected | Pass |
+| 47 | Completed order can be viewed in profile section|  Order information is listed on Checkout Success page and information provided to user that a confirmation email has been sent to their email account | As Expected | Pass |
+| 48 | Confirmation email works correctly| Confirmation email has been received and contains correct information | As Expected | Pass |
+| 49 | Order history is correct| The order can be seen in Order History on user profile page | As Expected | Pass |
+| 50 | Test link to order detail on Profile Page| Link takes user to order detail on Order History page in User Profile | As Expected | Pass |
 
 ### Known Bugs
 - When a user clicks on Suscribe button, user is not taken back to the footer to enter an email. User manually need to scroll to the bottom
