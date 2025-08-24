@@ -14,7 +14,7 @@ Natural cosmetics are beauty and personal care products made primarily from natu
 ## TABLE OF CONTENTS
 
 * [User Experience](#user-experience)
-    * [User Stories](#user-stories)
+    * [User stories](#user-stories)
 * [Design](#design)    
     * [Typography](#typography)
     * [Colour Scheme](#colour-scheme)
@@ -124,9 +124,12 @@ Natural cosmetics are beauty and personal care products made primarily from natu
 
   ![](https://github.com/fatimagama20/naturalcosmetics_m4/blob/main/wireframes/contactus.png?raw=true)
 
-# Database Schema
+## Database
+### Relational Database
 
 This project utilises PostgreSQL, a relational database mangement system (RDBMS) managed by ElephantSQL which offers PostgreSQL as a service.
+
+### Entity Relationship Diagram
 
 - I have represented the data within an entity relationship diagram.
 
