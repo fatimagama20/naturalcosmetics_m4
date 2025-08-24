@@ -160,7 +160,7 @@ I tested to make sure users receive an email at registration to verify their acc
 | 23 | Subscribe button after entering an email | Click on the subscribe button after entering an email will receive a confirmation message | As Expected  | Pass |
 | **FOOTER LINKS** |  |  |  |  | [desktop](./media/testingdocument/footerlinksdesktop.png), [tablet](./media/testingdocument/footerlinksmobile.png.png), [mobile](./media/testingdocument/footerlinkstablet.png.png)  |
 | 25 | Social media links | Click social media links redirects to respective page | As Expected  | Pass |
-| **USER PROFILE SETUP** |  |  |  |  | [desktop](./media/documentation/profile-desktop.png), [tablet](./media/documentation/profile-tablet.png), [mobile](./media/documentation/profile-mobile.png) |
+| **USER PROFILE SETUP** |  |  |  |  | [desktop](./media/testingdocument/profile-desktop.png.png), [tablet](./media/testingdocument/profile-tablet.png.png), [mobile](./media/testingdocument/profile-mobile.png.png) |
 | 26 | Sign-up button | Error message appears if nothing entered in input fields or incorrect data | As Expected  | Pass |
 | 27 | Sign-up button |  Alert appears showing email sent to email address for verification | As Expected  | Pass |
 | 28 | Login button |  New unverified users receive alert | As Expected  | Pass |
@@ -177,7 +177,7 @@ I tested to make sure users receive an email at registration to verify their acc
 | 38 | Profile page saves payment details and address fields |  Form fields are saved when checkbox clicked and after aditional logins | As Expected | Pass |
 | 39 | Log out of account as admin and as ordinary user |  Click logout in dropdown under acoount icon goes to logout page | As Expected | Pass |
 | 40 | Sign-out page |  Cancel link takes user to home page whilst logged in, sign out button takes user to homepage & signed out with asuccess message evident | As Expected | Pass |
-| **BAG OPTIONS** |  |  |  |  | [desktop](./media/documentation/bag-desktop.png), [tablet](./media/documentation/bag-tablet.png), [mobile](./media/documentation/bag-mobile.png) |
+| **BAG OPTIONS** |  |  |  |  | [desktop](./media/testingdocument/shopping-bag-desktop.png), [tablet](./media/testingdocument/shopping-bag-tablet.png), [mobile](./media/testingdocument/shopping-bag-mobile.png) |
 | 41 | Bag page displays prices |  Individual prices, Bag total, Grand Total listed accurately | As Expected | Pass |
 | 42 | Bag page displays message if total under free delivery rate |  Message evident with indicated additional spend required for free delivery | As Expected | Pass |
 | 43 | Bag page displays quantity of products required |  Message evident with indicated additional spend required for free delivery | As Expected | Pass |
@@ -188,7 +188,7 @@ I tested to make sure users receive an email at registration to verify their acc
 | 48 | Secure checkout button |  Secure checkout button goes to checkout page | As Expected | Pass |
 | 49 | Keep shopping button |  Keep shopping button goes to products page | As Expected | Pass |
 | 50 | View bag page without products added |  Keep shopping button goes to products page | As Expected | Pass |
-| **CHECKOUT & PAYMENT** |  |  |  |  | [desktop](./media/documentation/checkout-desktop.png), [tablet](./media/documentation/checkout-tablet.png), [mobile](./media/documentation/checkout-mobile.png) |
+| **CHECKOUT & PAYMENT** |  |  |  |  | [desktop](./media/testingdocument/checkout-desktop.png), [tablet](./media/testingdocument/checkout-tablet.png), [mobile](./media/testingdocument/checkout-mobile.png.png) |
 | 51 | Customer detail form fields cannot be empty when ordering |  Popup appears reminding user that form fields must be filled before submitting order | As Expected | Pass |
 | 52 | Adjust bag link works|  User is taken to bag page | As Expected | Pass |
 | 53 | Warning appears if card expired|  Alert appears indicating expiry date is in the past and order cannot be submitted | As Expected | Pass |
