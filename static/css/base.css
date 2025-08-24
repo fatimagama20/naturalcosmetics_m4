@@ -517,7 +517,7 @@ input[name='q']::placeholder {
 
 .footer-column {
     flex: 1;
-    padding: 10px;
+    padding: 1px;
 }
 
 .sr-only {

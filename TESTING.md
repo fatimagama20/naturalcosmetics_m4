@@ -158,12 +158,8 @@ I tested to make sure users receive an email at registration to verify their acc
 | **Subscribe** |  |  |  |  | [desktop](./media/testingdocument/subscribedesktop.png), [tablet](./media/testingdocument/subscribetablet.png), [mobile](./media/testingdocument/subscribemobile.png) |
 | 22 | Subscribe button | Click Subscribe button shows the email text box to enter email | As Expected  | Pass |
 | 23 | Subscribe button after entering an email | Click on the subscribe button after entering an email will receive a confirmation message | As Expected  | Pass |
-| **FOOTER LINKS** |  |  |  |  | [desktop](./media/documentation/footer-desktop.png), [tablet](./media/documentation/footer-tablet.png), [mobile](./media/documentation/footer-mobile.png)  |
-| 25 | Stockists button | Click Stockists button goes to Stockists page | As Expected  | Pass (NB Links to T&C/Privacy policy pages are a future feature) |
-| **NEWSLETTER SIGN UP** |  |  |  |  | [desktop](./media/documentation/newsletter-desktop.png), [tablet](./media/documentation/newsletter-tablet.png), [mobile](./media/documentation/newsletter-mobile.png) |
-| ?? | Sign-up button | Error message appears if nothing entered in input fields | As Expected  | Pass |
-| ?? | Submit button | Success message appears if input fields completed | As Expected  | Pass |
-| ?? | Submitted Record stored | Subscription appears in admin subscribe section (Name, Email and Date fields) | As Expected  | Pass |
+| **FOOTER LINKS** |  |  |  |  | [desktop](./media/testingdocument/footerlinksdesktop.png), [tablet](./media/testingdocument/footerlinksmobile.png.png), [mobile](./media/testingdocument/footerlinkstablet.png.png)  |
+| 25 | Social media links | Click social media links redirects to respective page | As Expected  | Pass |
 | **USER PROFILE SETUP** |  |  |  |  | [desktop](./media/documentation/profile-desktop.png), [tablet](./media/documentation/profile-tablet.png), [mobile](./media/documentation/profile-mobile.png) |
 | 26 | Sign-up button | Error message appears if nothing entered in input fields or incorrect data | As Expected  | Pass |
 | 27 | Sign-up button |  Alert appears showing email sent to email address for verification | As Expected  | Pass |
