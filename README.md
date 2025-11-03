@@ -127,7 +127,7 @@ Natural cosmetics are beauty and personal care products made primarily from natu
 ## Database
 ### Relational Database
 
-This project utilises PostgreSQL, a relational database mangement system (RDBMS) managed by ElephantSQL which offers PostgreSQL as a service.
+This project utilises PostgreSQL, a relational database mangement system (RDBMS) which offers PostgreSQL as a service.
 
 ### Entity Relationship Diagram
 
@@ -292,29 +292,9 @@ The Subscribe app manages email subscriptions on the website. It allows visitors
 - Clicked the green GitPod button in the top right hand cornner of the repository to create a new [workspace](https://gitpod.io/workspaces) to enable me to work locally
 
 ## Deploy application to Heroku:
-- Create an account with ElephantSQL 
-- Navigate to ElephantSQL.com and click “Log in”:
-- Select “Sign in with GitHub”.
-- Authorise ElephantSQL with your selected GitHub account.
-- In the Create new team form:
-   - Add a team name (your own name is fine)
-   - Read and agree to the Terms of Service
-   - Select Yes for GDPR
-   - Provide your email address
-   - Click “Create Team”
 - Create a database
-   - Click “Create New Instance”
-   - Set up your plan
-   - Give your plan a Name (this is commonly the   name of the project)
-   - Select the Tiny Turtle (Free) plan
-   - You can leave the Tags field blank
-   - Select “Select Region”
-   - Select a data center near you
-   - Then click “Review”
-   - Check your details are correct and then click “Create instance”
-   - Return to the ElephantSQL dashboard and click on the database instance name for this project
-   - In the URL section, clicking the copy icon will copy the database URL to your clipboard
-   - Leave this tab open, we will come back here later
+   - Open the [CI Database Maker](https://dbs.ci-dbs.net/) 
+   - Enter your email address and submit. As a confirmation you should receive an email to your inbox with the link to this new database.
 - Preparing your code for Deployment
 
    Now you have a database, we need to make some modifications to the code in your IDE.In your IDE workspace
@@ -334,8 +314,7 @@ The Subscribe app manages email subscriptions on the website. It allows visitors
    - Choose a unique name for your app, select the region closest to you and click “Create app”
    - Go to the Settings tab of your new app
    - Click Reveal Config Vars
-   - Return to your ElephantSQL tab and copy your database URL
-   - Back on Heroku, add a Config Var called DATABASE_URL and paste your ElephantSQL database URL in as the value. Make sure you click “Add”
+   - Add a Config Var called DATABASE_URL and paste your database URL in as the value. Make sure you click “Add”
    - Add each of your other environment variables except DEVELOPMENT and DB_URL from the env.py file as a Config Var
 - Deploying the app
    - Navigate to the “Deploy” tab of your app
@@ -343,12 +322,6 @@ The Subscribe app manages email subscriptions on the website. It allows visitors
    - Search for your repo and click Connect
    - Optional: You can click Enable Automatic Deploys in case you make any further changes to the project. This will trigger any time code is pushed to your GitHub repository
    - As we already have all our changes pushed to GitHub, we will use the Manual deploy section and click Deploy Branch. This will start the build process. When finished, it should look something like this
-   - Now, we have our project in place, and we have an empty database ready for use. As you may remember from our local development, we still need to add our tables to our database. To do this, we can click the “More” button and select “Run console”
-   - Type python3 into the console and click Run
-   - This opens the Python terminal, in the same way as it would if we typed python3 into the terminal within our IDE. Let’s now create the tables with the commands we used before
-     - from taskmanager import db
-     - db.create_all()
-   - Exit the Python terminal, by typing exit() and hitting enter, and close the console. Our Heroku database should now have the tables and columns created from our models.py file.
    - The app should be up and running now, so click the “Open app” button
 
 Congratulations! You have successfully deployed your app to Heroku! [live site](http://naturalcosmetics-2fcecfab55d3.herokuapp.com/).
@@ -386,14 +359,15 @@ Congratulations! You have successfully deployed your app to Heroku! [live site](
 ## How to run this project locally 
 
 ### Cloning project into GitPod
-1. Set up a [GitHub account](https://github.com/)
-2. Use the Chrome browser.
-3. Install browser extensions for Chrome.
-4. After installation restart the browser.
-5. Log into GitPod with your gitpod account
-6. Navigate to the Project GitHub [repository](https://github.com/fatimagama20/naturalcosmetics_m4).
-7. Click the green GitPod button in the top right hand cornner of the repository to create a new [workspace](https://gitpod.io/workspaces) to enable you to work locally'
-8. More information about cloning is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
+1. Log into GitHub and navigate to the [repository](https://github.com/fatimagama20/naturalcosmetics_m4) for the project you want to migrate. Then, go to green button and copy the [URL](https://github.com/fatimagama20/naturalcosmetics_m4.git) of your repository to your clipboard.
+2. In VS Code, select File > Open Folder
+3. Select your vscode-projects folder, then click the Select Folder button on Windows
+4. From the top menu in VS Code, select Terminal > New Terminal to open the terminal.
+5. In the terminal, type git clone followed by the URL of your GitHub repository. Then hit Enter. This command will download all the files in your GitHub repository into your vscode-projects folder.
+6. In VS Code, select File > Open Folder again.
+7. This time, navigate to and select the folder for the project you just downloaded. Then, click Select Folder.
+8. Then, you should be able to see all the files and folders for your project that were pushed to GitHub in your VS Code file explorer.
+9. More information about cloning is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
 
 # Accessibility
 Accessible features include:
